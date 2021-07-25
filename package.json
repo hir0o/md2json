@@ -8,5 +8,8 @@
   },
   "scripts": {
     "deploy": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.3"
   }
 }
