@@ -1,37 +1,34 @@
 import { parse } from '@textlint/markdown-to-ast'
-import { TxtNode, TxtParentNode } from '@textlint/ast-node-types'
-
+import { ASTNodeTypes, TxtNode } from '@textlint/ast-node-types'
 import { readFileSync } from 'fs'
+import { load } from 'js-yaml'
+const MetaRequired = [
+  'title',
+  'content',
+  'tag',
+  'imageUrl',
+  'difficulty',
+  'score'
+]
 
-const getMetaData = (ast: TxtParentNode) => {
-  let meta = {}
-  for (let i = 1; i < ast.length; i++) {
-    const item = ast.shift()
-    if (item.raw === '---') break
-    if (item.type === 'Break') continue // 改行は無視
-    const [tag, content] = item.raw.split(/: /)
-    // TODO: /: /にマッチしなかったら、throw
-    meta = { ...meta, [tag]: content }
-  }
-  ;['title', 'content', 'tag', 'imageUrl', 'difficulty', 'score'].forEach(
-    (item) => {
-      if (!Object.keys(meta).includes(item))
-        throw `メタ情報に${item}がありません。`
-    }
-  )
+const getMetaData = (metaStr: string) => {
+  const meta = load(metaStr) as { [key: string]: string }
+  MetaRequired.forEach((item) => {
+    if (!Object.keys(meta).includes(item))
+      throw `メタ情報に${item}がありません。`
+  })
   return meta
 }
+
+// const getLessons = (ast: TxtNode[])
 
 // 一旦ここに全部実装しちゃう
 const md2json = () => {
   const file = readFileSync('./example/text.md', 'utf-8')
   const { children } = parse(file)
 
-  console.log(JSON.stringify(children))
-
-  // if (children.shift().raw !== '---') throw 'ファイルの先頭は---です。'
-
-  // const metaData: { [key: string]: string } = getMetaData(children)
+  const meta = children.shift()
+  const metaData: { [key: string]: string } = getMetaData(meta.value)
 
   // return { metaData }
 }
