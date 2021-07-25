@@ -12,14 +12,19 @@ const MetaRequired = [
   'score'
 ]
 
-// const astHandler = (children: TxtNode) => {
-//   let index = 0
-//   return ((children: TxtNode) => {
-//     const next = () => children[++index]
-//     const current = () => children[index]
-//     return { next, current }
-//   })(children)
-// }
+type AstHandlerType = {
+  next: () => TxtNode
+  current: () => TxtNode
+}
+
+const astHandler = (children: TxtNode) => {
+  let index = 0
+  return ((children: TxtNode) => {
+    const next = () => children[++index]
+    const current = () => children[index]
+    return { next, current }
+  })(children)
+}
 
 const raiseError = (message: string, ast: TxtNode) => {
   throw new Error(`${message} line:${ast.loc.start.line}`)
@@ -36,16 +41,17 @@ const getMetaData = (ast: TxtNode) => {
   return meta
 }
 
-const getLesson = (ast: TxtNode) => {
+const getLesson = (ast: AstHandlerType) => {
   const title = getLessonTitle(ast)
   const description = getDescription(ast)
-  console.log(description)
+  console.log({ title })
+  console.log({ description })
 
   return { title, description }
 }
 
-const getLessonTitle = (ast: TxtNode) => {
-  const item = ast.shift()
+const getLessonTitle = (ast: AstHandlerType) => {
+  const item = ast.next()
   if (item.type === 'Header' && item.depth === 2) {
     return item.children[0].value
   } else {
@@ -53,14 +59,14 @@ const getLessonTitle = (ast: TxtNode) => {
   }
 }
 
-const getDescription = (ast: TxtNode) => {
-  const item = ast.shift()
+const getDescription = (ast: AstHandlerType) => {
+  const item = ast.next()
   if (
     item.type === 'Header' &&
     item.depth === 3 &&
     item.children[0].value === '概要'
   ) {
-    const reItem = ast.shift()
+    const reItem = ast.next()
     if (reItem.type === 'Paragraph') {
       return reItem.children[0].value
     } else {
@@ -79,10 +85,10 @@ const md2json = () => {
 
     const ast = astHandler(children)
 
-    // const metaData: { [key: string]: string } = getMetaData(children.shift())
-    // const lesson = getLesson(children)
+    const metaData: { [key: string]: string } = getMetaData(ast.current())
+    const lesson = getLesson(ast)
 
-    // return { metaData }
+    return { metaData }
   } catch (error) {
     console.error(error)
   }
