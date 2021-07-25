@@ -2,6 +2,7 @@ import { parse } from '@textlint/markdown-to-ast'
 import { ASTNodeTypes, TxtNode } from '@textlint/ast-node-types'
 import { readFileSync } from 'fs'
 import { load } from 'js-yaml'
+import { LessonType } from './type'
 
 const MetaRequired = [
   'title',
@@ -51,9 +52,15 @@ const getLesson = (ast: AstHandler) => {
   const quizCoices = getQuizCoices(ast)
   const quizExplanation = getQuizExplanation(ast)
 
-  console.log(quizContent)
-
-  return { title, description, exp, content, quizContent }
+  return {
+    title,
+    description,
+    exp,
+    content,
+    quizContent,
+    quizCoices,
+    quizExplanation
+  }
 }
 
 const getLessonTitle = (ast: AstHandler) => {
@@ -138,6 +145,21 @@ const getQuizCoices = (ast: AstHandler) => {
     })
   } else {
     raiseError('選択肢がありません', ast.current())
+  }
+}
+
+const getQuizExplanation = (ast: AstHandler) => {
+  let content = ''
+  if (ast.next().raw === '### 解説') {
+    ast.next()
+    while (ast.current().type !== 'HorizontalRule') {
+      content += ast.current().raw + '\n\n'
+      ast.next()
+    }
+    ast.prev()
+    return content.slice(0, -2) // 後ろの改行を削除
+  } else {
+    raiseError('解説がありません', ast.current())
   }
 }
 
