@@ -93,12 +93,15 @@ const getExp = (ast: AstHandler) => {
 
 const getContent = (ast: AstHandler) => {
   let content = ''
-  ast.next()
-  while (ast.current().raw !== '### 本文') {
-    content += ast.current().raw + '\n'
-    ast.next()
+  if (ast.next().raw === '### 本文') {
+    while (ast.current().raw !== '### 問題') {
+      content += ast.current().raw + '\n'
+      ast.next()
+    }
+    return content
+  } else {
+    raiseError('本文がありません', ast.current())
   }
-  return content
 }
 
 // 一旦ここに全部実装しちゃう
