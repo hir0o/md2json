@@ -20,12 +20,10 @@ type AstHandler = {
 
 const astHandler = (children: TxtNode) => {
   let index = 0
-  return ((children: TxtNode) => {
-    const prev = () => children[--index]
-    const next = () => children[++index]
-    const current = () => children[index]
-    return { prev, next, current }
-  })(children)
+  const prev = () => children[--index]
+  const next = () => children[++index]
+  const current = () => children[index]
+  return { prev, next, current }
 }
 
 const raiseError = (message: string, ast: TxtNode) => {
