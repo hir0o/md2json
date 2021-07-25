@@ -13,6 +13,7 @@ const MetaRequired = [
 ]
 
 type AstHandler = {
+  prev: () => TxtNode
   next: () => TxtNode
   current: () => TxtNode
 }
@@ -20,9 +21,10 @@ type AstHandler = {
 const astHandler = (children: TxtNode) => {
   let index = 0
   return ((children: TxtNode) => {
+    const prev = () => children[--index]
     const next = () => children[++index]
     const current = () => children[index]
-    return { next, current }
+    return { prev, next, current }
   })(children)
 }
 
@@ -31,12 +33,11 @@ const raiseError = (message: string, ast: TxtNode) => {
 }
 
 const getMetaData = (ast: TxtNode) => {
-  if (ast.type !== 'Yaml') raiseError('ファイルの先頭はYaml形式です。', ast)
+  if (ast.type !== 'Yaml') raiseError('ファイルの先頭はYaml形式です', ast)
 
   const meta = load(ast.value) as { [key: string]: string }
   MetaRequired.forEach((item) => {
-    if (!Object.keys(meta).includes(item))
-      throw `メタ情報に${item}がありません。`
+    if (!Object.keys(meta).includes(item)) throw `メタ情報に${item}がありません`
   })
   return meta
 }
@@ -46,7 +47,9 @@ const getLesson = (ast: AstHandler) => {
   const description = getDescription(ast)
   const exp = getExp(ast)
   const content = getContent(ast)
-  console.log(content)
+  const quizContent = getQuizContent(ast)
+
+  console.log(quizContent)
 
   return { title, description, exp, content }
 }
@@ -71,10 +74,10 @@ const getDescription = (ast: AstHandler) => {
     if (reItem.type === 'Paragraph') {
       return reItem.children[0].value
     } else {
-      raiseError('概要が不正です。', reItem)
+      raiseError('概要が不正です', reItem)
     }
   } else {
-    raiseError('概要がありません。', item)
+    raiseError('概要がありません', item)
   }
 }
 
@@ -85,10 +88,10 @@ const getExp = (ast: AstHandler) => {
     if (reItem.type === 'Paragraph' && /^([1-9]\d*|0)$/.test(reItem.raw)) {
       return Number(reItem.raw)
     } else {
-      raiseError('経験値が不正です。', reItem)
+      raiseError('経験値が不正です', reItem)
     }
   } else {
-    raiseError('経験値がありません。', item)
+    raiseError('経験値がありません', item)
   }
 }
 
@@ -102,13 +105,29 @@ const getContent = (ast: AstHandler) => {
       content += ast.current().raw + '\n\n'
       ast.next()
     }
+    ast.prev()
     return content
   } else {
     raiseError('本文がありません', ast.current())
   }
 }
 
-// 一旦ここに全部実装しちゃう
+const getQuizContent = (ast: AstHandler) => {
+  let content = ''
+  if (ast.next().raw === '### 問題') {
+    ast.next()
+    // TODO: 選択肢があるかどうか
+    while (ast.current().type !== 'List') {
+      content += ast.current().raw + '\n\n'
+      ast.next()
+    }
+    ast.prev()
+    return content
+  } else {
+    raiseError('問題がありません', ast.current())
+  }
+}
+
 const md2json = () => {
   try {
     const file = readFileSync('./example/text.md', 'utf-8')
