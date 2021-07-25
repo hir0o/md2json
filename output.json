@@ -1,0 +1,5262 @@
+[
+  {
+    "type": "Yaml",
+    "value": "title: Python\ncontent: Python は、機械学習や、Web アプリケーション開発、データ処理/解析 などができる汎用的な言語です。読みやすくシンプルな言語なので、初心者でも比較的簡単に学習できる言語と言えます。\ntag: backend\n\nimageUrl: https://dummyimage.com/600x400/000/fff&text=Pythonを始めよう\ndifficulty: 1\nscore: 1",
+    "loc": {
+      "start": { "line": 1, "column": 0 },
+      "end": { "line": 9, "column": 3 }
+    },
+    "range": [0, 228],
+    "raw": "---\ntitle: Python\ncontent: Python は、機械学習や、Web アプリケーション開発、データ処理/解析 などができる汎用的な言語です。読みやすくシンプルな言語なので、初心者でも比較的簡単に学習できる言語と言えます。\ntag: backend\n\nimageUrl: https://dummyimage.com/600x400/000/fff&text=Pythonを始めよう\ndifficulty: 1\nscore: 1\n---"
+  },
+  {
+    "type": "Header",
+    "depth": 2,
+    "children": [
+      {
+        "type": "Str",
+        "value": "Python とは",
+        "loc": {
+          "start": { "line": 11, "column": 3 },
+          "end": { "line": 11, "column": 12 }
+        },
+        "range": [233, 242],
+        "raw": "Python とは"
+      }
+    ],
+    "loc": {
+      "start": { "line": 11, "column": 0 },
+      "end": { "line": 11, "column": 12 }
+    },
+    "range": [230, 242],
+    "raw": "## Python とは"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "概要",
+        "loc": {
+          "start": { "line": 13, "column": 4 },
+          "end": { "line": 13, "column": 6 }
+        },
+        "range": [248, 250],
+        "raw": "概要"
+      }
+    ],
+    "loc": {
+      "start": { "line": 13, "column": 0 },
+      "end": { "line": 13, "column": 6 }
+    },
+    "range": [244, 250],
+    "raw": "### 概要"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "Python について学習しましょう",
+        "loc": {
+          "start": { "line": 15, "column": 0 },
+          "end": { "line": 15, "column": 18 }
+        },
+        "range": [252, 270],
+        "raw": "Python について学習しましょう"
+      }
+    ],
+    "loc": {
+      "start": { "line": 15, "column": 0 },
+      "end": { "line": 15, "column": 18 }
+    },
+    "range": [252, 270],
+    "raw": "Python について学習しましょう"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "経験値",
+        "loc": {
+          "start": { "line": 17, "column": 4 },
+          "end": { "line": 17, "column": 7 }
+        },
+        "range": [276, 279],
+        "raw": "経験値"
+      }
+    ],
+    "loc": {
+      "start": { "line": 17, "column": 0 },
+      "end": { "line": 17, "column": 7 }
+    },
+    "range": [272, 279],
+    "raw": "### 経験値"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "100",
+        "loc": {
+          "start": { "line": 19, "column": 0 },
+          "end": { "line": 19, "column": 3 }
+        },
+        "range": [281, 284],
+        "raw": "100"
+      }
+    ],
+    "loc": {
+      "start": { "line": 19, "column": 0 },
+      "end": { "line": 19, "column": 3 }
+    },
+    "range": [281, 284],
+    "raw": "100"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "本文",
+        "loc": {
+          "start": { "line": 21, "column": 4 },
+          "end": { "line": 21, "column": 6 }
+        },
+        "range": [290, 292],
+        "raw": "本文"
+      }
+    ],
+    "loc": {
+      "start": { "line": 21, "column": 0 },
+      "end": { "line": 21, "column": 6 }
+    },
+    "range": [286, 292],
+    "raw": "### 本文"
+  },
+  {
+    "type": "Html",
+    "value": "<img src=\"https://img-host.wemotion.co.jp/uploads/c-python/logo-python.png\" width=\"500\">",
+    "loc": {
+      "start": { "line": 23, "column": 0 },
+      "end": { "line": 23, "column": 88 }
+    },
+    "range": [294, 382],
+    "raw": "<img src=\"https://img-host.wemotion.co.jp/uploads/c-python/logo-python.png\" width=\"500\">"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "Python とは、1991 年にオランダ人の Guido van Rossum（グイド・ヴァン・ロッサム）氏が開発した ",
+        "loc": {
+          "start": { "line": 25, "column": 0 },
+          "end": { "line": 25, "column": 61 }
+        },
+        "range": [384, 445],
+        "raw": "Python とは、1991 年にオランダ人の Guido van Rossum（グイド・ヴァン・ロッサム）氏が開発した "
+      },
+      {
+        "type": "Code",
+        "value": "オブジェクト指向スクリプト言語",
+        "loc": {
+          "start": { "line": 25, "column": 61 },
+          "end": { "line": 25, "column": 78 }
+        },
+        "range": [445, 462],
+        "raw": "`オブジェクト指向スクリプト言語`"
+      },
+      {
+        "type": "Str",
+        "value": " です。",
+        "loc": {
+          "start": { "line": 25, "column": 78 },
+          "end": { "line": 25, "column": 82 }
+        },
+        "range": [462, 466],
+        "raw": " です。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 25, "column": 0 },
+      "end": { "line": 25, "column": 82 }
+    },
+    "range": [384, 466],
+    "raw": "Python とは、1991 年にオランダ人の Guido van Rossum（グイド・ヴァン・ロッサム）氏が開発した `オブジェクト指向スクリプト言語` です。"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "同じオブジェクト指向言語には ",
+        "loc": {
+          "start": { "line": 27, "column": 0 },
+          "end": { "line": 27, "column": 15 }
+        },
+        "range": [468, 483],
+        "raw": "同じオブジェクト指向言語には "
+      },
+      {
+        "type": "Code",
+        "value": "Ruby",
+        "loc": {
+          "start": { "line": 27, "column": 15 },
+          "end": { "line": 27, "column": 21 }
+        },
+        "range": [483, 489],
+        "raw": "`Ruby`"
+      },
+      {
+        "type": "Str",
+        "value": " や ",
+        "loc": {
+          "start": { "line": 27, "column": 21 },
+          "end": { "line": 27, "column": 24 }
+        },
+        "range": [489, 492],
+        "raw": " や "
+      },
+      {
+        "type": "Code",
+        "value": "PHP",
+        "loc": {
+          "start": { "line": 27, "column": 24 },
+          "end": { "line": 27, "column": 29 }
+        },
+        "range": [492, 497],
+        "raw": "`PHP`"
+      },
+      {
+        "type": "Str",
+        "value": " などの言語があります。",
+        "loc": {
+          "start": { "line": 27, "column": 29 },
+          "end": { "line": 27, "column": 41 }
+        },
+        "range": [497, 509],
+        "raw": " などの言語があります。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 27, "column": 0 },
+      "end": { "line": 27, "column": 41 }
+    },
+    "range": [468, 509],
+    "raw": "同じオブジェクト指向言語には `Ruby` や `PHP` などの言語があります。"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Code",
+        "value": "Python = AI",
+        "loc": {
+          "start": { "line": 29, "column": 0 },
+          "end": { "line": 29, "column": 13 }
+        },
+        "range": [511, 524],
+        "raw": "`Python = AI`"
+      },
+      {
+        "type": "Str",
+        "value": " のようなイメージを持ってる方が多いとは思いますが、AI を作るためだけの言語というわけではなく、",
+        "loc": {
+          "start": { "line": 29, "column": 13 },
+          "end": { "line": 29, "column": 62 }
+        },
+        "range": [524, 573],
+        "raw": " のようなイメージを持ってる方が多いとは思いますが、AI を作るためだけの言語というわけではなく、"
+      },
+      {
+        "type": "Code",
+        "value": "Webアプリケーション開発",
+        "loc": {
+          "start": { "line": 29, "column": 62 },
+          "end": { "line": 29, "column": 77 }
+        },
+        "range": [573, 588],
+        "raw": "`Webアプリケーション開発`"
+      },
+      {
+        "type": "Str",
+        "value": " や ",
+        "loc": {
+          "start": { "line": 29, "column": 77 },
+          "end": { "line": 29, "column": 80 }
+        },
+        "range": [588, 591],
+        "raw": " や "
+      },
+      {
+        "type": "Code",
+        "value": "データ処理/解析",
+        "loc": {
+          "start": { "line": 29, "column": 80 },
+          "end": { "line": 29, "column": 90 }
+        },
+        "range": [591, 601],
+        "raw": "`データ処理/解析`"
+      },
+      {
+        "type": "Str",
+        "value": " などができる汎用的な言語となります。また開発効率がよく、素早く開発ができるといった特徴もあります。",
+        "loc": {
+          "start": { "line": 29, "column": 90 },
+          "end": { "line": 29, "column": 140 }
+        },
+        "range": [601, 651],
+        "raw": " などができる汎用的な言語となります。また開発効率がよく、素早く開発ができるといった特徴もあります。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 29, "column": 0 },
+      "end": { "line": 29, "column": 140 }
+    },
+    "range": [511, 651],
+    "raw": "`Python = AI` のようなイメージを持ってる方が多いとは思いますが、AI を作るためだけの言語というわけではなく、`Webアプリケーション開発` や `データ処理/解析` などができる汎用的な言語となります。また開発効率がよく、素早く開発ができるといった特徴もあります。"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "Python は読みやすくてシンプルなので、比較的簡単で習得しやすい言語の一つになります。少ないコード量でプログラムが書くことができるので読み間違えや書き間違えが発生しにくい点や、Python を知らない人でも理解しやすいように設計されている点が開発効率の向上に寄与しています。",
+        "loc": {
+          "start": { "line": 31, "column": 0 },
+          "end": { "line": 31, "column": 139 }
+        },
+        "range": [653, 792],
+        "raw": "Python は読みやすくてシンプルなので、比較的簡単で習得しやすい言語の一つになります。少ないコード量でプログラムが書くことができるので読み間違えや書き間違えが発生しにくい点や、Python を知らない人でも理解しやすいように設計されている点が開発効率の向上に寄与しています。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 31, "column": 0 },
+      "end": { "line": 31, "column": 139 }
+    },
+    "range": [653, 792],
+    "raw": "Python は読みやすくてシンプルなので、比較的簡単で習得しやすい言語の一つになります。少ないコード量でプログラムが書くことができるので読み間違えや書き間違えが発生しにくい点や、Python を知らない人でも理解しやすいように設計されている点が開発効率の向上に寄与しています。"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "問題",
+        "loc": {
+          "start": { "line": 33, "column": 4 },
+          "end": { "line": 33, "column": 6 }
+        },
+        "range": [798, 800],
+        "raw": "問題"
+      }
+    ],
+    "loc": {
+      "start": { "line": 33, "column": 0 },
+      "end": { "line": 33, "column": 6 }
+    },
+    "range": [794, 800],
+    "raw": "### 問題"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "なし",
+        "loc": {
+          "start": { "line": 35, "column": 0 },
+          "end": { "line": 35, "column": 2 }
+        },
+        "range": [802, 804],
+        "raw": "なし"
+      }
+    ],
+    "loc": {
+      "start": { "line": 35, "column": 0 },
+      "end": { "line": 35, "column": 2 }
+    },
+    "range": [802, 804],
+    "raw": "なし"
+  },
+  {
+    "type": "List",
+    "ordered": false,
+    "start": null,
+    "spread": false,
+    "children": [
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": true,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "なし",
+                "loc": {
+                  "start": { "line": 37, "column": 6 },
+                  "end": { "line": 37, "column": 8 }
+                },
+                "range": [812, 814],
+                "raw": "なし"
+              }
+            ],
+            "loc": {
+              "start": { "line": 37, "column": 6 },
+              "end": { "line": 37, "column": 8 }
+            },
+            "range": [812, 814],
+            "raw": "なし"
+          }
+        ],
+        "loc": {
+          "start": { "line": 37, "column": 0 },
+          "end": { "line": 37, "column": 8 }
+        },
+        "range": [806, 814],
+        "raw": "- [x] なし"
+      }
+    ],
+    "loc": {
+      "start": { "line": 37, "column": 0 },
+      "end": { "line": 37, "column": 8 }
+    },
+    "range": [806, 814],
+    "raw": "- [x] なし"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "解説",
+        "loc": {
+          "start": { "line": 39, "column": 4 },
+          "end": { "line": 39, "column": 6 }
+        },
+        "range": [820, 822],
+        "raw": "解説"
+      }
+    ],
+    "loc": {
+      "start": { "line": 39, "column": 0 },
+      "end": { "line": 39, "column": 6 }
+    },
+    "range": [816, 822],
+    "raw": "### 解説"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "なし",
+        "loc": {
+          "start": { "line": 41, "column": 0 },
+          "end": { "line": 41, "column": 2 }
+        },
+        "range": [824, 826],
+        "raw": "なし"
+      }
+    ],
+    "loc": {
+      "start": { "line": 41, "column": 0 },
+      "end": { "line": 41, "column": 2 }
+    },
+    "range": [824, 826],
+    "raw": "なし"
+  },
+  {
+    "type": "HorizontalRule",
+    "loc": {
+      "start": { "line": 43, "column": 0 },
+      "end": { "line": 43, "column": 3 }
+    },
+    "range": [828, 831],
+    "raw": "---"
+  },
+  {
+    "type": "Header",
+    "depth": 2,
+    "children": [
+      {
+        "type": "Str",
+        "value": "Python で何が出来るか",
+        "loc": {
+          "start": { "line": 45, "column": 3 },
+          "end": { "line": 45, "column": 17 }
+        },
+        "range": [836, 850],
+        "raw": "Python で何が出来るか"
+      }
+    ],
+    "loc": {
+      "start": { "line": 45, "column": 0 },
+      "end": { "line": 45, "column": 17 }
+    },
+    "range": [833, 850],
+    "raw": "## Python で何が出来るか"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "概要",
+        "loc": {
+          "start": { "line": 47, "column": 4 },
+          "end": { "line": 47, "column": 6 }
+        },
+        "range": [856, 858],
+        "raw": "概要"
+      }
+    ],
+    "loc": {
+      "start": { "line": 47, "column": 0 },
+      "end": { "line": 47, "column": 6 }
+    },
+    "range": [852, 858],
+    "raw": "### 概要"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "Python でできることについて学習しましょう",
+        "loc": {
+          "start": { "line": 49, "column": 0 },
+          "end": { "line": 49, "column": 24 }
+        },
+        "range": [860, 884],
+        "raw": "Python でできることについて学習しましょう"
+      }
+    ],
+    "loc": {
+      "start": { "line": 49, "column": 0 },
+      "end": { "line": 49, "column": 24 }
+    },
+    "range": [860, 884],
+    "raw": "Python でできることについて学習しましょう"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "経験値",
+        "loc": {
+          "start": { "line": 51, "column": 4 },
+          "end": { "line": 51, "column": 7 }
+        },
+        "range": [890, 893],
+        "raw": "経験値"
+      }
+    ],
+    "loc": {
+      "start": { "line": 51, "column": 0 },
+      "end": { "line": 51, "column": 7 }
+    },
+    "range": [886, 893],
+    "raw": "### 経験値"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "100",
+        "loc": {
+          "start": { "line": 53, "column": 0 },
+          "end": { "line": 53, "column": 3 }
+        },
+        "range": [895, 898],
+        "raw": "100"
+      }
+    ],
+    "loc": {
+      "start": { "line": 53, "column": 0 },
+      "end": { "line": 53, "column": 3 }
+    },
+    "range": [895, 898],
+    "raw": "100"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "本文",
+        "loc": {
+          "start": { "line": 55, "column": 4 },
+          "end": { "line": 55, "column": 6 }
+        },
+        "range": [904, 906],
+        "raw": "本文"
+      }
+    ],
+    "loc": {
+      "start": { "line": 55, "column": 0 },
+      "end": { "line": 55, "column": 6 }
+    },
+    "range": [900, 906],
+    "raw": "### 本文"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "先述したように、Python は汎用的な言語なのでできることは沢山ありますが、ここでは代表的なものを紹介します。",
+        "loc": {
+          "start": { "line": 57, "column": 0 },
+          "end": { "line": 57, "column": 56 }
+        },
+        "range": [908, 964],
+        "raw": "先述したように、Python は汎用的な言語なのでできることは沢山ありますが、ここでは代表的なものを紹介します。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 57, "column": 0 },
+      "end": { "line": 57, "column": 56 }
+    },
+    "range": [908, 964],
+    "raw": "先述したように、Python は汎用的な言語なのでできることは沢山ありますが、ここでは代表的なものを紹介します。"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "データ処理や解析",
+        "loc": {
+          "start": { "line": 59, "column": 4 },
+          "end": { "line": 59, "column": 12 }
+        },
+        "range": [970, 978],
+        "raw": "データ処理や解析"
+      }
+    ],
+    "loc": {
+      "start": { "line": 59, "column": 0 },
+      "end": { "line": 59, "column": 12 }
+    },
+    "range": [966, 978],
+    "raw": "### データ処理や解析"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "Python には ",
+        "loc": {
+          "start": { "line": 61, "column": 0 },
+          "end": { "line": 61, "column": 10 }
+        },
+        "range": [980, 990],
+        "raw": "Python には "
+      },
+      {
+        "type": "Strong",
+        "children": [
+          {
+            "type": "Emphasis",
+            "children": [
+              {
+                "type": "Str",
+                "value": "NumPy",
+                "loc": {
+                  "start": { "line": 61, "column": 13 },
+                  "end": { "line": 61, "column": 18 }
+                },
+                "range": [993, 998],
+                "raw": "NumPy"
+              }
+            ],
+            "loc": {
+              "start": { "line": 61, "column": 12 },
+              "end": { "line": 61, "column": 19 }
+            },
+            "range": [992, 999],
+            "raw": "_NumPy_"
+          }
+        ],
+        "loc": {
+          "start": { "line": 61, "column": 10 },
+          "end": { "line": 61, "column": 21 }
+        },
+        "range": [990, 1001],
+        "raw": "**_NumPy_**"
+      },
+      {
+        "type": "Str",
+        "value": "、",
+        "loc": {
+          "start": { "line": 61, "column": 21 },
+          "end": { "line": 61, "column": 22 }
+        },
+        "range": [1001, 1002],
+        "raw": "、"
+      },
+      {
+        "type": "Strong",
+        "children": [
+          {
+            "type": "Emphasis",
+            "children": [
+              {
+                "type": "Str",
+                "value": "SciPy",
+                "loc": {
+                  "start": { "line": 61, "column": 25 },
+                  "end": { "line": 61, "column": 30 }
+                },
+                "range": [1005, 1010],
+                "raw": "SciPy"
+              }
+            ],
+            "loc": {
+              "start": { "line": 61, "column": 24 },
+              "end": { "line": 61, "column": 31 }
+            },
+            "range": [1004, 1011],
+            "raw": "_SciPy_"
+          }
+        ],
+        "loc": {
+          "start": { "line": 61, "column": 22 },
+          "end": { "line": 61, "column": 33 }
+        },
+        "range": [1002, 1013],
+        "raw": "**_SciPy_**"
+      },
+      {
+        "type": "Str",
+        "value": " などの高速な数値計算ライブラリが存在しているため、データ処理やデータ解析によく用いられることがあります。\n例えば、大きなデータを高速に集計・解析したり、グラフをプロットするプログラムを書くといったことができます。",
+        "loc": {
+          "start": { "line": 61, "column": 33 },
+          "end": { "line": 62, "column": 53 }
+        },
+        "range": [1013, 1120],
+        "raw": " などの高速な数値計算ライブラリが存在しているため、データ処理やデータ解析によく用いられることがあります。\n例えば、大きなデータを高速に集計・解析したり、グラフをプロットするプログラムを書くといったことができます。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 61, "column": 0 },
+      "end": { "line": 62, "column": 53 }
+    },
+    "range": [980, 1120],
+    "raw": "Python には **_NumPy_**、**_SciPy_** などの高速な数値計算ライブラリが存在しているため、データ処理やデータ解析によく用いられることがあります。\n例えば、大きなデータを高速に集計・解析したり、グラフをプロットするプログラムを書くといったことができます。"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "フレームワークを使用した Web アプリケーションの構築",
+        "loc": {
+          "start": { "line": 64, "column": 4 },
+          "end": { "line": 64, "column": 32 }
+        },
+        "range": [1126, 1154],
+        "raw": "フレームワークを使用した Web アプリケーションの構築"
+      }
+    ],
+    "loc": {
+      "start": { "line": 64, "column": 0 },
+      "end": { "line": 64, "column": 32 }
+    },
+    "range": [1122, 1154],
+    "raw": "### フレームワークを使用した Web アプリケーションの構築"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "Python の代表的な Web アプリケーション フレームワークには、",
+        "loc": {
+          "start": { "line": 66, "column": 0 },
+          "end": { "line": 66, "column": 36 }
+        },
+        "range": [1156, 1192],
+        "raw": "Python の代表的な Web アプリケーション フレームワークには、"
+      },
+      {
+        "type": "Code",
+        "value": "Django(ジャンゴ)",
+        "loc": {
+          "start": { "line": 66, "column": 36 },
+          "end": { "line": 66, "column": 50 }
+        },
+        "range": [1192, 1206],
+        "raw": "`Django(ジャンゴ)`"
+      },
+      {
+        "type": "Str",
+        "value": " や ",
+        "loc": {
+          "start": { "line": 66, "column": 50 },
+          "end": { "line": 66, "column": 53 }
+        },
+        "range": [1206, 1209],
+        "raw": " や "
+      },
+      {
+        "type": "Code",
+        "value": "Flask（フラスコ/フラスク）",
+        "loc": {
+          "start": { "line": 66, "column": 53 },
+          "end": { "line": 66, "column": 71 }
+        },
+        "range": [1209, 1227],
+        "raw": "`Flask（フラスコ/フラスク）`"
+      },
+      {
+        "type": "Str",
+        "value": " と言ったフレームワークがあり、Web アプリケーションの開発でよく使用されています。",
+        "loc": {
+          "start": { "line": 66, "column": 71 },
+          "end": { "line": 66, "column": 114 }
+        },
+        "range": [1227, 1270],
+        "raw": " と言ったフレームワークがあり、Web アプリケーションの開発でよく使用されています。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 66, "column": 0 },
+      "end": { "line": 66, "column": 114 }
+    },
+    "range": [1156, 1270],
+    "raw": "Python の代表的な Web アプリケーション フレームワークには、`Django(ジャンゴ)` や `Flask（フラスコ/フラスク）` と言ったフレームワークがあり、Web アプリケーションの開発でよく使用されています。"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "Django は Web アプリ開発に特化したフルスタックなフレームワークで大規模な開発に向いている一方、Flask は小規模な開発に向いています。",
+        "loc": {
+          "start": { "line": 68, "column": 0 },
+          "end": { "line": 68, "column": 74 }
+        },
+        "range": [1272, 1346],
+        "raw": "Django は Web アプリ開発に特化したフルスタックなフレームワークで大規模な開発に向いている一方、Flask は小規模な開発に向いています。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 68, "column": 0 },
+      "end": { "line": 68, "column": 74 }
+    },
+    "range": [1272, 1346],
+    "raw": "Django は Web アプリ開発に特化したフルスタックなフレームワークで大規模な開発に向いている一方、Flask は小規模な開発に向いています。"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "他にも Python はシステムの開発やゲームプログラミングができます。",
+        "loc": {
+          "start": { "line": 70, "column": 0 },
+          "end": { "line": 70, "column": 36 }
+        },
+        "range": [1348, 1384],
+        "raw": "他にも Python はシステムの開発やゲームプログラミングができます。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 70, "column": 0 },
+      "end": { "line": 70, "column": 36 }
+    },
+    "range": [1348, 1384],
+    "raw": "他にも Python はシステムの開発やゲームプログラミングができます。"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "問題",
+        "loc": {
+          "start": { "line": 72, "column": 4 },
+          "end": { "line": 72, "column": 6 }
+        },
+        "range": [1390, 1392],
+        "raw": "問題"
+      }
+    ],
+    "loc": {
+      "start": { "line": 72, "column": 0 },
+      "end": { "line": 72, "column": 6 }
+    },
+    "range": [1386, 1392],
+    "raw": "### 問題"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "なし",
+        "loc": {
+          "start": { "line": 74, "column": 0 },
+          "end": { "line": 74, "column": 2 }
+        },
+        "range": [1394, 1396],
+        "raw": "なし"
+      }
+    ],
+    "loc": {
+      "start": { "line": 74, "column": 0 },
+      "end": { "line": 74, "column": 2 }
+    },
+    "range": [1394, 1396],
+    "raw": "なし"
+  },
+  {
+    "type": "List",
+    "ordered": false,
+    "start": null,
+    "spread": false,
+    "children": [
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": true,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "なし",
+                "loc": {
+                  "start": { "line": 76, "column": 6 },
+                  "end": { "line": 76, "column": 8 }
+                },
+                "range": [1404, 1406],
+                "raw": "なし"
+              }
+            ],
+            "loc": {
+              "start": { "line": 76, "column": 6 },
+              "end": { "line": 76, "column": 8 }
+            },
+            "range": [1404, 1406],
+            "raw": "なし"
+          }
+        ],
+        "loc": {
+          "start": { "line": 76, "column": 0 },
+          "end": { "line": 76, "column": 8 }
+        },
+        "range": [1398, 1406],
+        "raw": "- [x] なし"
+      }
+    ],
+    "loc": {
+      "start": { "line": 76, "column": 0 },
+      "end": { "line": 76, "column": 8 }
+    },
+    "range": [1398, 1406],
+    "raw": "- [x] なし"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "解説",
+        "loc": {
+          "start": { "line": 78, "column": 4 },
+          "end": { "line": 78, "column": 6 }
+        },
+        "range": [1412, 1414],
+        "raw": "解説"
+      }
+    ],
+    "loc": {
+      "start": { "line": 78, "column": 0 },
+      "end": { "line": 78, "column": 6 }
+    },
+    "range": [1408, 1414],
+    "raw": "### 解説"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "なし",
+        "loc": {
+          "start": { "line": 80, "column": 0 },
+          "end": { "line": 80, "column": 2 }
+        },
+        "range": [1416, 1418],
+        "raw": "なし"
+      }
+    ],
+    "loc": {
+      "start": { "line": 80, "column": 0 },
+      "end": { "line": 80, "column": 2 }
+    },
+    "range": [1416, 1418],
+    "raw": "なし"
+  },
+  {
+    "type": "HorizontalRule",
+    "loc": {
+      "start": { "line": 82, "column": 0 },
+      "end": { "line": 82, "column": 3 }
+    },
+    "range": [1420, 1423],
+    "raw": "---"
+  },
+  {
+    "type": "Header",
+    "depth": 2,
+    "children": [
+      {
+        "type": "Str",
+        "value": "基本的な書き方",
+        "loc": {
+          "start": { "line": 84, "column": 3 },
+          "end": { "line": 84, "column": 10 }
+        },
+        "range": [1428, 1435],
+        "raw": "基本的な書き方"
+      }
+    ],
+    "loc": {
+      "start": { "line": 84, "column": 0 },
+      "end": { "line": 84, "column": 10 }
+    },
+    "range": [1425, 1435],
+    "raw": "## 基本的な書き方"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "概要",
+        "loc": {
+          "start": { "line": 86, "column": 4 },
+          "end": { "line": 86, "column": 6 }
+        },
+        "range": [1441, 1443],
+        "raw": "概要"
+      }
+    ],
+    "loc": {
+      "start": { "line": 86, "column": 0 },
+      "end": { "line": 86, "column": 6 }
+    },
+    "range": [1437, 1443],
+    "raw": "### 概要"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "基本的な",
+        "loc": {
+          "start": { "line": 88, "column": 0 },
+          "end": { "line": 88, "column": 4 }
+        },
+        "range": [1445, 1449],
+        "raw": "基本的な"
+      }
+    ],
+    "loc": {
+      "start": { "line": 88, "column": 0 },
+      "end": { "line": 88, "column": 4 }
+    },
+    "range": [1445, 1449],
+    "raw": "基本的な"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "経験値",
+        "loc": {
+          "start": { "line": 90, "column": 4 },
+          "end": { "line": 90, "column": 7 }
+        },
+        "range": [1455, 1458],
+        "raw": "経験値"
+      }
+    ],
+    "loc": {
+      "start": { "line": 90, "column": 0 },
+      "end": { "line": 90, "column": 7 }
+    },
+    "range": [1451, 1458],
+    "raw": "### 経験値"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "100",
+        "loc": {
+          "start": { "line": 92, "column": 0 },
+          "end": { "line": 92, "column": 3 }
+        },
+        "range": [1460, 1463],
+        "raw": "100"
+      }
+    ],
+    "loc": {
+      "start": { "line": 92, "column": 0 },
+      "end": { "line": 92, "column": 3 }
+    },
+    "range": [1460, 1463],
+    "raw": "100"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "本文",
+        "loc": {
+          "start": { "line": 94, "column": 4 },
+          "end": { "line": 94, "column": 6 }
+        },
+        "range": [1469, 1471],
+        "raw": "本文"
+      }
+    ],
+    "loc": {
+      "start": { "line": 94, "column": 0 },
+      "end": { "line": 94, "column": 6 }
+    },
+    "range": [1465, 1471],
+    "raw": "### 本文"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "実際に Python を書いて実行してみましょう。\nエディタに Python のコードを書いて、ターミナル（Windows の方はコマンドプロンプト、又は PowerShell）で実行という流れで進めていきましょう。",
+        "loc": {
+          "start": { "line": 96, "column": 0 },
+          "end": { "line": 97, "column": 82 }
+        },
+        "range": [1473, 1581],
+        "raw": "実際に Python を書いて実行してみましょう。\nエディタに Python のコードを書いて、ターミナル（Windows の方はコマンドプロンプト、又は PowerShell）で実行という流れで進めていきましょう。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 96, "column": 0 },
+      "end": { "line": 97, "column": 82 }
+    },
+    "range": [1473, 1581],
+    "raw": "実際に Python を書いて実行してみましょう。\nエディタに Python のコードを書いて、ターミナル（Windows の方はコマンドプロンプト、又は PowerShell）で実行という流れで進めていきましょう。"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "それでは Python の基本的な書き方について学んでいきましょう。\n任意の場所に ",
+        "loc": {
+          "start": { "line": 99, "column": 0 },
+          "end": { "line": 100, "column": 7 }
+        },
+        "range": [1583, 1625],
+        "raw": "それでは Python の基本的な書き方について学んでいきましょう。\n任意の場所に "
+      },
+      {
+        "type": "Code",
+        "value": "/python",
+        "loc": {
+          "start": { "line": 100, "column": 7 },
+          "end": { "line": 100, "column": 16 }
+        },
+        "range": [1625, 1634],
+        "raw": "`/python`"
+      },
+      {
+        "type": "Str",
+        "value": " ディレクトリを作成し、その中に ",
+        "loc": {
+          "start": { "line": 100, "column": 16 },
+          "end": { "line": 100, "column": 33 }
+        },
+        "range": [1634, 1651],
+        "raw": " ディレクトリを作成し、その中に "
+      },
+      {
+        "type": "Code",
+        "value": "test.py",
+        "loc": {
+          "start": { "line": 100, "column": 33 },
+          "end": { "line": 100, "column": 42 }
+        },
+        "range": [1651, 1660],
+        "raw": "`test.py`"
+      },
+      {
+        "type": "Str",
+        "value": " というファイルを作成してください。\nPython は、インデントに意味を持つ言語なので各行でのインデントには気をつけましょう。",
+        "loc": {
+          "start": { "line": 100, "column": 42 },
+          "end": { "line": 101, "column": 45 }
+        },
+        "range": [1660, 1724],
+        "raw": " というファイルを作成してください。\nPython は、インデントに意味を持つ言語なので各行でのインデントには気をつけましょう。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 99, "column": 0 },
+      "end": { "line": 101, "column": 45 }
+    },
+    "range": [1583, 1724],
+    "raw": "それでは Python の基本的な書き方について学んでいきましょう。\n任意の場所に `/python` ディレクトリを作成し、その中に `test.py` というファイルを作成してください。\nPython は、インデントに意味を持つ言語なので各行でのインデントには気をつけましょう。"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Code",
+        "value": "print()",
+        "loc": {
+          "start": { "line": 103, "column": 0 },
+          "end": { "line": 103, "column": 9 }
+        },
+        "range": [1726, 1735],
+        "raw": "`print()`"
+      },
+      {
+        "type": "Str",
+        "value": " という関数を使用することで文字列や数値を出力することができます。引数に出力したい文字列および数値を与えましょう。",
+        "loc": {
+          "start": { "line": 103, "column": 9 },
+          "end": { "line": 103, "column": 66 }
+        },
+        "range": [1735, 1792],
+        "raw": " という関数を使用することで文字列や数値を出力することができます。引数に出力したい文字列および数値を与えましょう。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 103, "column": 0 },
+      "end": { "line": 103, "column": 66 }
+    },
+    "range": [1726, 1792],
+    "raw": "`print()` という関数を使用することで文字列や数値を出力することができます。引数に出力したい文字列および数値を与えましょう。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "python:test.py",
+    "meta": null,
+    "value": "print(\"Hello, Python!\")\nprint(1)",
+    "loc": {
+      "start": { "line": 105, "column": 0 },
+      "end": { "line": 108, "column": 3 }
+    },
+    "range": [1794, 1848],
+    "raw": "```python:test.py\nprint(\"Hello, Python!\")\nprint(1)\n```"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "書いたコードを実行するためには、シェルなどから",
+        "loc": {
+          "start": { "line": 110, "column": 0 },
+          "end": { "line": 110, "column": 23 }
+        },
+        "range": [1850, 1873],
+        "raw": "書いたコードを実行するためには、シェルなどから"
+      }
+    ],
+    "loc": {
+      "start": { "line": 110, "column": 0 },
+      "end": { "line": 110, "column": 23 }
+    },
+    "range": [1850, 1873],
+    "raw": "書いたコードを実行するためには、シェルなどから"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "shell",
+    "meta": null,
+    "value": "$ python 実行ファイル名",
+    "loc": {
+      "start": { "line": 112, "column": 0 },
+      "end": { "line": 114, "column": 3 }
+    },
+    "range": [1875, 1904],
+    "raw": "```shell\n$ python 実行ファイル名\n```"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "とすることで Python ファイルが実行されます。",
+        "loc": {
+          "start": { "line": 116, "column": 0 },
+          "end": { "line": 116, "column": 26 }
+        },
+        "range": [1906, 1932],
+        "raw": "とすることで Python ファイルが実行されます。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 116, "column": 0 },
+      "end": { "line": 116, "column": 26 }
+    },
+    "range": [1906, 1932],
+    "raw": "とすることで Python ファイルが実行されます。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "shell",
+    "meta": null,
+    "value": "$ python test.py\nHello, Python!\n1",
+    "loc": {
+      "start": { "line": 118, "column": 0 },
+      "end": { "line": 122, "column": 3 }
+    },
+    "range": [1934, 1980],
+    "raw": "```shell\n$ python test.py\nHello, Python!\n1\n```"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "問題",
+        "loc": {
+          "start": { "line": 124, "column": 4 },
+          "end": { "line": 124, "column": 6 }
+        },
+        "range": [1986, 1988],
+        "raw": "問題"
+      }
+    ],
+    "loc": {
+      "start": { "line": 124, "column": 0 },
+      "end": { "line": 124, "column": 6 }
+    },
+    "range": [1982, 1988],
+    "raw": "### 問題"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "以下の実行結果を出力するために適切なコードを選択してください。",
+        "loc": {
+          "start": { "line": 126, "column": 0 },
+          "end": { "line": 126, "column": 31 }
+        },
+        "range": [1990, 2021],
+        "raw": "以下の実行結果を出力するために適切なコードを選択してください。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 126, "column": 0 },
+      "end": { "line": 126, "column": 31 }
+    },
+    "range": [1990, 2021],
+    "raw": "以下の実行結果を出力するために適切なコードを選択してください。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": null,
+    "meta": null,
+    "value": "Hello python!",
+    "loc": {
+      "start": { "line": 128, "column": 0 },
+      "end": { "line": 130, "column": 3 }
+    },
+    "range": [2023, 2044],
+    "raw": "```\nHello python!\n```"
+  },
+  {
+    "type": "List",
+    "ordered": false,
+    "start": null,
+    "spread": false,
+    "children": [
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "printf(\"Hello python!\")",
+                "loc": {
+                  "start": { "line": 132, "column": 6 },
+                  "end": { "line": 132, "column": 29 }
+                },
+                "range": [2052, 2075],
+                "raw": "printf(\"Hello python!\")"
+              }
+            ],
+            "loc": {
+              "start": { "line": 132, "column": 6 },
+              "end": { "line": 132, "column": 29 }
+            },
+            "range": [2052, 2075],
+            "raw": "printf(\"Hello python!\")"
+          }
+        ],
+        "loc": {
+          "start": { "line": 132, "column": 0 },
+          "end": { "line": 132, "column": 29 }
+        },
+        "range": [2046, 2075],
+        "raw": "- [ ] printf(\"Hello python!\")"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "print \"Hello python!\"",
+                "loc": {
+                  "start": { "line": 133, "column": 6 },
+                  "end": { "line": 133, "column": 27 }
+                },
+                "range": [2082, 2103],
+                "raw": "print \"Hello python!\""
+              }
+            ],
+            "loc": {
+              "start": { "line": 133, "column": 6 },
+              "end": { "line": 133, "column": 27 }
+            },
+            "range": [2082, 2103],
+            "raw": "print \"Hello python!\""
+          }
+        ],
+        "loc": {
+          "start": { "line": 133, "column": 0 },
+          "end": { "line": 133, "column": 27 }
+        },
+        "range": [2076, 2103],
+        "raw": "- [ ] print \"Hello python!\""
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": true,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "print(\"Hello python!\")",
+                "loc": {
+                  "start": { "line": 134, "column": 6 },
+                  "end": { "line": 134, "column": 28 }
+                },
+                "range": [2110, 2132],
+                "raw": "print(\"Hello python!\")"
+              }
+            ],
+            "loc": {
+              "start": { "line": 134, "column": 6 },
+              "end": { "line": 134, "column": 28 }
+            },
+            "range": [2110, 2132],
+            "raw": "print(\"Hello python!\")"
+          }
+        ],
+        "loc": {
+          "start": { "line": 134, "column": 0 },
+          "end": { "line": 134, "column": 28 }
+        },
+        "range": [2104, 2132],
+        "raw": "- [x] print(\"Hello python!\")"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "print(Hello python!)",
+                "loc": {
+                  "start": { "line": 135, "column": 6 },
+                  "end": { "line": 135, "column": 26 }
+                },
+                "range": [2139, 2159],
+                "raw": "print(Hello python!)"
+              }
+            ],
+            "loc": {
+              "start": { "line": 135, "column": 6 },
+              "end": { "line": 135, "column": 26 }
+            },
+            "range": [2139, 2159],
+            "raw": "print(Hello python!)"
+          }
+        ],
+        "loc": {
+          "start": { "line": 135, "column": 0 },
+          "end": { "line": 135, "column": 26 }
+        },
+        "range": [2133, 2159],
+        "raw": "- [ ] print(Hello python!)"
+      }
+    ],
+    "loc": {
+      "start": { "line": 132, "column": 0 },
+      "end": { "line": 135, "column": 26 }
+    },
+    "range": [2046, 2159],
+    "raw": "- [ ] printf(\"Hello python!\")\n- [ ] print \"Hello python!\"\n- [x] print(\"Hello python!\")\n- [ ] print(Hello python!)"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "解説",
+        "loc": {
+          "start": { "line": 137, "column": 4 },
+          "end": { "line": 137, "column": 6 }
+        },
+        "range": [2165, 2167],
+        "raw": "解説"
+      }
+    ],
+    "loc": {
+      "start": { "line": 137, "column": 0 },
+      "end": { "line": 137, "column": 6 }
+    },
+    "range": [2161, 2167],
+    "raw": "### 解説"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "出力するコードとして正しいのは、",
+        "loc": {
+          "start": { "line": 139, "column": 0 },
+          "end": { "line": 139, "column": 16 }
+        },
+        "range": [2169, 2185],
+        "raw": "出力するコードとして正しいのは、"
+      },
+      {
+        "type": "Code",
+        "value": "print(\"Hello python!\")",
+        "loc": {
+          "start": { "line": 139, "column": 16 },
+          "end": { "line": 139, "column": 40 }
+        },
+        "range": [2185, 2209],
+        "raw": "`print(\"Hello python!\")`"
+      },
+      {
+        "type": "Str",
+        "value": " です。\nPython では、print()メソッドで実行結果を出力することができます。\nまた、今回は文字列を出力させるとのことでしたので、",
+        "loc": {
+          "start": { "line": 139, "column": 40 },
+          "end": { "line": 141, "column": 25 }
+        },
+        "range": [2209, 2279],
+        "raw": " です。\nPython では、print()メソッドで実行結果を出力することができます。\nまた、今回は文字列を出力させるとのことでしたので、"
+      },
+      {
+        "type": "Code",
+        "value": "\"\"",
+        "loc": {
+          "start": { "line": 141, "column": 25 },
+          "end": { "line": 141, "column": 29 }
+        },
+        "range": [2279, 2283],
+        "raw": "`\"\"`"
+      },
+      {
+        "type": "Str",
+        "value": "ダブルクォーテーションでしたが、数値の場合は必要ないので注意してください。",
+        "loc": {
+          "start": { "line": 141, "column": 29 },
+          "end": { "line": 141, "column": 66 }
+        },
+        "range": [2283, 2320],
+        "raw": "ダブルクォーテーションでしたが、数値の場合は必要ないので注意してください。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 139, "column": 0 },
+      "end": { "line": 141, "column": 66 }
+    },
+    "range": [2169, 2320],
+    "raw": "出力するコードとして正しいのは、`print(\"Hello python!\")` です。\nPython では、print()メソッドで実行結果を出力することができます。\nまた、今回は文字列を出力させるとのことでしたので、`\"\"`ダブルクォーテーションでしたが、数値の場合は必要ないので注意してください。"
+  },
+  {
+    "type": "HorizontalRule",
+    "loc": {
+      "start": { "line": 143, "column": 0 },
+      "end": { "line": 143, "column": 3 }
+    },
+    "range": [2322, 2325],
+    "raw": "---"
+  },
+  {
+    "type": "Header",
+    "depth": 2,
+    "children": [
+      {
+        "type": "Str",
+        "value": "コメントアウト",
+        "loc": {
+          "start": { "line": 145, "column": 3 },
+          "end": { "line": 145, "column": 10 }
+        },
+        "range": [2330, 2337],
+        "raw": "コメントアウト"
+      }
+    ],
+    "loc": {
+      "start": { "line": 145, "column": 0 },
+      "end": { "line": 145, "column": 10 }
+    },
+    "range": [2327, 2337],
+    "raw": "## コメントアウト"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "概要",
+        "loc": {
+          "start": { "line": 147, "column": 4 },
+          "end": { "line": 147, "column": 6 }
+        },
+        "range": [2343, 2345],
+        "raw": "概要"
+      }
+    ],
+    "loc": {
+      "start": { "line": 147, "column": 0 },
+      "end": { "line": 147, "column": 6 }
+    },
+    "range": [2339, 2345],
+    "raw": "### 概要"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "コメントアウト について学習しましょう．",
+        "loc": {
+          "start": { "line": 149, "column": 0 },
+          "end": { "line": 149, "column": 20 }
+        },
+        "range": [2347, 2367],
+        "raw": "コメントアウト について学習しましょう．"
+      }
+    ],
+    "loc": {
+      "start": { "line": 149, "column": 0 },
+      "end": { "line": 149, "column": 20 }
+    },
+    "range": [2347, 2367],
+    "raw": "コメントアウト について学習しましょう．"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "経験値",
+        "loc": {
+          "start": { "line": 151, "column": 4 },
+          "end": { "line": 151, "column": 7 }
+        },
+        "range": [2373, 2376],
+        "raw": "経験値"
+      }
+    ],
+    "loc": {
+      "start": { "line": 151, "column": 0 },
+      "end": { "line": 151, "column": 7 }
+    },
+    "range": [2369, 2376],
+    "raw": "### 経験値"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "100",
+        "loc": {
+          "start": { "line": 153, "column": 0 },
+          "end": { "line": 153, "column": 3 }
+        },
+        "range": [2378, 2381],
+        "raw": "100"
+      }
+    ],
+    "loc": {
+      "start": { "line": 153, "column": 0 },
+      "end": { "line": 153, "column": 3 }
+    },
+    "range": [2378, 2381],
+    "raw": "100"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "本文",
+        "loc": {
+          "start": { "line": 155, "column": 4 },
+          "end": { "line": 155, "column": 6 }
+        },
+        "range": [2387, 2389],
+        "raw": "本文"
+      }
+    ],
+    "loc": {
+      "start": { "line": 155, "column": 0 },
+      "end": { "line": 155, "column": 6 }
+    },
+    "range": [2383, 2389],
+    "raw": "### 本文"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "ソースコードの中にコメントやメモを残しておきたい場合は、コメントアウトを使用して記述しましょう。",
+        "loc": {
+          "start": { "line": 157, "column": 0 },
+          "end": { "line": 157, "column": 48 }
+        },
+        "range": [2391, 2439],
+        "raw": "ソースコードの中にコメントやメモを残しておきたい場合は、コメントアウトを使用して記述しましょう。"
+      },
+      {
+        "type": "Code",
+        "value": "#",
+        "loc": {
+          "start": { "line": 157, "column": 48 },
+          "end": { "line": 157, "column": 51 }
+        },
+        "range": [2439, 2442],
+        "raw": "`#`"
+      },
+      {
+        "type": "Str",
+        "value": " を使うと以降の文字がコメントアウトされます。",
+        "loc": {
+          "start": { "line": 157, "column": 51 },
+          "end": { "line": 157, "column": 74 }
+        },
+        "range": [2442, 2465],
+        "raw": " を使うと以降の文字がコメントアウトされます。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 157, "column": 0 },
+      "end": { "line": 157, "column": 74 }
+    },
+    "range": [2391, 2465],
+    "raw": "ソースコードの中にコメントやメモを残しておきたい場合は、コメントアウトを使用して記述しましょう。`#` を使うと以降の文字がコメントアウトされます。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "python",
+    "meta": null,
+    "value": "print('Hello, python') # これはコメントです",
+    "loc": {
+      "start": { "line": 159, "column": 0 },
+      "end": { "line": 161, "column": 3 }
+    },
+    "range": [2467, 2515],
+    "raw": "```python\nprint('Hello, python') # これはコメントです\n```"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "複数行をコメントアウトしたい場合は、以下のように記述します。",
+        "loc": {
+          "start": { "line": 163, "column": 0 },
+          "end": { "line": 163, "column": 30 }
+        },
+        "range": [2517, 2547],
+        "raw": "複数行をコメントアウトしたい場合は、以下のように記述します。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 163, "column": 0 },
+      "end": { "line": 163, "column": 30 }
+    },
+    "range": [2517, 2547],
+    "raw": "複数行をコメントアウトしたい場合は、以下のように記述します。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "python",
+    "meta": null,
+    "value": "print(\"Hello python\") # 実行される\n\n\"\"\"\nこれはコメントです\nこれはコメントです\nこれはコメントです\n\"\"\"\n\nprint(\"Hello codeee\") # 実行される",
+    "loc": {
+      "start": { "line": 165, "column": 0 },
+      "end": { "line": 175, "column": 3 }
+    },
+    "range": [2549, 2662],
+    "raw": "```python\nprint(\"Hello python\") # 実行される\n\n\"\"\"\nこれはコメントです\nこれはコメントです\nこれはコメントです\n\"\"\"\n\nprint(\"Hello codeee\") # 実行される\n```"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "問題",
+        "loc": {
+          "start": { "line": 177, "column": 4 },
+          "end": { "line": 177, "column": 6 }
+        },
+        "range": [2668, 2670],
+        "raw": "問題"
+      }
+    ],
+    "loc": {
+      "start": { "line": 177, "column": 0 },
+      "end": { "line": 177, "column": 6 }
+    },
+    "range": [2664, 2670],
+    "raw": "### 問題"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "Python でコメントアウトに使用する記号を選択してください。",
+        "loc": {
+          "start": { "line": 179, "column": 0 },
+          "end": { "line": 179, "column": 32 }
+        },
+        "range": [2672, 2704],
+        "raw": "Python でコメントアウトに使用する記号を選択してください。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 179, "column": 0 },
+      "end": { "line": 179, "column": 32 }
+    },
+    "range": [2672, 2704],
+    "raw": "Python でコメントアウトに使用する記号を選択してください。"
+  },
+  {
+    "type": "List",
+    "ordered": false,
+    "start": null,
+    "spread": false,
+    "children": [
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "/**/ コメントアウト",
+                "loc": {
+                  "start": { "line": 181, "column": 6 },
+                  "end": { "line": 181, "column": 20 }
+                },
+                "range": [2712, 2726],
+                "raw": "/\\*\\*/ コメントアウト"
+              }
+            ],
+            "loc": {
+              "start": { "line": 181, "column": 6 },
+              "end": { "line": 181, "column": 20 }
+            },
+            "range": [2712, 2726],
+            "raw": "/\\*\\*/ コメントアウト"
+          }
+        ],
+        "loc": {
+          "start": { "line": 181, "column": 0 },
+          "end": { "line": 181, "column": 20 }
+        },
+        "range": [2706, 2726],
+        "raw": "- [ ] /\\*\\*/ コメントアウト"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": true,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "# コメントアウト",
+                "loc": {
+                  "start": { "line": 182, "column": 6 },
+                  "end": { "line": 182, "column": 15 }
+                },
+                "range": [2733, 2742],
+                "raw": "# コメントアウト"
+              }
+            ],
+            "loc": {
+              "start": { "line": 182, "column": 6 },
+              "end": { "line": 182, "column": 15 }
+            },
+            "range": [2733, 2742],
+            "raw": "# コメントアウト"
+          }
+        ],
+        "loc": {
+          "start": { "line": 182, "column": 0 },
+          "end": { "line": 182, "column": 15 }
+        },
+        "range": [2727, 2742],
+        "raw": "- [x] # コメントアウト"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "// コメントアウト",
+                "loc": {
+                  "start": { "line": 183, "column": 6 },
+                  "end": { "line": 183, "column": 16 }
+                },
+                "range": [2749, 2759],
+                "raw": "// コメントアウト"
+              }
+            ],
+            "loc": {
+              "start": { "line": 183, "column": 6 },
+              "end": { "line": 183, "column": 16 }
+            },
+            "range": [2749, 2759],
+            "raw": "// コメントアウト"
+          }
+        ],
+        "loc": {
+          "start": { "line": 183, "column": 0 },
+          "end": { "line": 183, "column": 16 }
+        },
+        "range": [2743, 2759],
+        "raw": "- [ ] // コメントアウト"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "＄ コメントアウト",
+                "loc": {
+                  "start": { "line": 184, "column": 6 },
+                  "end": { "line": 184, "column": 15 }
+                },
+                "range": [2766, 2775],
+                "raw": "＄ コメントアウト"
+              }
+            ],
+            "loc": {
+              "start": { "line": 184, "column": 6 },
+              "end": { "line": 184, "column": 15 }
+            },
+            "range": [2766, 2775],
+            "raw": "＄ コメントアウト"
+          }
+        ],
+        "loc": {
+          "start": { "line": 184, "column": 0 },
+          "end": { "line": 184, "column": 15 }
+        },
+        "range": [2760, 2775],
+        "raw": "- [ ] ＄ コメントアウト"
+      }
+    ],
+    "loc": {
+      "start": { "line": 181, "column": 0 },
+      "end": { "line": 184, "column": 15 }
+    },
+    "range": [2706, 2775],
+    "raw": "- [ ] /\\*\\*/ コメントアウト\n- [x] # コメントアウト\n- [ ] // コメントアウト\n- [ ] ＄ コメントアウト"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "解説",
+        "loc": {
+          "start": { "line": 186, "column": 4 },
+          "end": { "line": 186, "column": 6 }
+        },
+        "range": [2781, 2783],
+        "raw": "解説"
+      }
+    ],
+    "loc": {
+      "start": { "line": 186, "column": 0 },
+      "end": { "line": 186, "column": 6 }
+    },
+    "range": [2777, 2783],
+    "raw": "### 解説"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "Python でコメントアウトに使用する記号は ",
+        "loc": {
+          "start": { "line": 188, "column": 0 },
+          "end": { "line": 188, "column": 24 }
+        },
+        "range": [2785, 2809],
+        "raw": "Python でコメントアウトに使用する記号は "
+      },
+      {
+        "type": "Code",
+        "value": "#",
+        "loc": {
+          "start": { "line": 188, "column": 24 },
+          "end": { "line": 188, "column": 27 }
+        },
+        "range": [2809, 2812],
+        "raw": "`#`"
+      },
+      {
+        "type": "Str",
+        "value": " です。\n",
+        "loc": {
+          "start": { "line": 188, "column": 27 },
+          "end": { "line": 189, "column": 0 }
+        },
+        "range": [2812, 2817],
+        "raw": " です。\n"
+      },
+      {
+        "type": "Code",
+        "value": "/**/",
+        "loc": {
+          "start": { "line": 189, "column": 0 },
+          "end": { "line": 189, "column": 6 }
+        },
+        "range": [2817, 2823],
+        "raw": "`/**/`"
+      },
+      {
+        "type": "Str",
+        "value": ", ",
+        "loc": {
+          "start": { "line": 189, "column": 6 },
+          "end": { "line": 189, "column": 8 }
+        },
+        "range": [2823, 2825],
+        "raw": ", "
+      },
+      {
+        "type": "Code",
+        "value": "//",
+        "loc": {
+          "start": { "line": 189, "column": 8 },
+          "end": { "line": 189, "column": 12 }
+        },
+        "range": [2825, 2829],
+        "raw": "`//`"
+      },
+      {
+        "type": "Str",
+        "value": ", ",
+        "loc": {
+          "start": { "line": 189, "column": 12 },
+          "end": { "line": 189, "column": 14 }
+        },
+        "range": [2829, 2831],
+        "raw": ", "
+      },
+      {
+        "type": "Code",
+        "value": "$",
+        "loc": {
+          "start": { "line": 189, "column": 14 },
+          "end": { "line": 189, "column": 17 }
+        },
+        "range": [2831, 2834],
+        "raw": "`$`"
+      },
+      {
+        "type": "Str",
+        "value": " などの記号はプログラミングを学んでいくとどこかで使用する機会があると思うので楽しみにしててください。",
+        "loc": {
+          "start": { "line": 189, "column": 17 },
+          "end": { "line": 189, "column": 68 }
+        },
+        "range": [2834, 2885],
+        "raw": " などの記号はプログラミングを学んでいくとどこかで使用する機会があると思うので楽しみにしててください。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 188, "column": 0 },
+      "end": { "line": 189, "column": 68 }
+    },
+    "range": [2785, 2885],
+    "raw": "Python でコメントアウトに使用する記号は `#` です。\n`/**/`, `//`, `$` などの記号はプログラミングを学んでいくとどこかで使用する機会があると思うので楽しみにしててください。"
+  },
+  {
+    "type": "HorizontalRule",
+    "loc": {
+      "start": { "line": 191, "column": 0 },
+      "end": { "line": 191, "column": 3 }
+    },
+    "range": [2887, 2890],
+    "raw": "---"
+  },
+  {
+    "type": "Header",
+    "depth": 2,
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数とは",
+        "loc": {
+          "start": { "line": 193, "column": 3 },
+          "end": { "line": 193, "column": 7 }
+        },
+        "range": [2895, 2899],
+        "raw": "変数とは"
+      }
+    ],
+    "loc": {
+      "start": { "line": 193, "column": 0 },
+      "end": { "line": 193, "column": 7 }
+    },
+    "range": [2892, 2899],
+    "raw": "## 変数とは"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "概要",
+        "loc": {
+          "start": { "line": 195, "column": 4 },
+          "end": { "line": 195, "column": 6 }
+        },
+        "range": [2905, 2907],
+        "raw": "概要"
+      }
+    ],
+    "loc": {
+      "start": { "line": 195, "column": 0 },
+      "end": { "line": 195, "column": 6 }
+    },
+    "range": [2901, 2907],
+    "raw": "### 概要"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数について学習しましょう．",
+        "loc": {
+          "start": { "line": 197, "column": 0 },
+          "end": { "line": 197, "column": 14 }
+        },
+        "range": [2909, 2923],
+        "raw": "変数について学習しましょう．"
+      }
+    ],
+    "loc": {
+      "start": { "line": 197, "column": 0 },
+      "end": { "line": 197, "column": 14 }
+    },
+    "range": [2909, 2923],
+    "raw": "変数について学習しましょう．"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "経験値",
+        "loc": {
+          "start": { "line": 199, "column": 4 },
+          "end": { "line": 199, "column": 7 }
+        },
+        "range": [2929, 2932],
+        "raw": "経験値"
+      }
+    ],
+    "loc": {
+      "start": { "line": 199, "column": 0 },
+      "end": { "line": 199, "column": 7 }
+    },
+    "range": [2925, 2932],
+    "raw": "### 経験値"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "100",
+        "loc": {
+          "start": { "line": 201, "column": 0 },
+          "end": { "line": 201, "column": 3 }
+        },
+        "range": [2934, 2937],
+        "raw": "100"
+      }
+    ],
+    "loc": {
+      "start": { "line": 201, "column": 0 },
+      "end": { "line": 201, "column": 3 }
+    },
+    "range": [2934, 2937],
+    "raw": "100"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "本文",
+        "loc": {
+          "start": { "line": 203, "column": 4 },
+          "end": { "line": 203, "column": 6 }
+        },
+        "range": [2943, 2945],
+        "raw": "本文"
+      }
+    ],
+    "loc": {
+      "start": { "line": 203, "column": 0 },
+      "end": { "line": 203, "column": 6 }
+    },
+    "range": [2939, 2945],
+    "raw": "### 本文"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数とはデータを一時的に保管しておく箱のようなもので、データを格納したり、取り出すことができます。",
+        "loc": {
+          "start": { "line": 205, "column": 0 },
+          "end": { "line": 205, "column": 49 }
+        },
+        "range": [2947, 2996],
+        "raw": "変数とはデータを一時的に保管しておく箱のようなもので、データを格納したり、取り出すことができます。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 205, "column": 0 },
+      "end": { "line": 205, "column": 49 }
+    },
+    "range": [2947, 2996],
+    "raw": "変数とはデータを一時的に保管しておく箱のようなもので、データを格納したり、取り出すことができます。"
+  },
+  {
+    "type": "Html",
+    "value": "<!-- ＠TODO\nimg-host.wemotion.co.jpをcodeeeのCDNに変更（外部の著作物である画像はリライトが必要） -->",
+    "loc": {
+      "start": { "line": 207, "column": 0 },
+      "end": { "line": 208, "column": 62 }
+    },
+    "range": [2998, 3071],
+    "raw": "<!-- ＠TODO\nimg-host.wemotion.co.jpをcodeeeのCDNに変更（外部の著作物である画像はリライトが必要） -->"
+  },
+  {
+    "type": "Html",
+    "value": "<img src=\"https://img-host.wemotion.co.jp/uploads/c-python/python-variable\" width=\"500\">",
+    "loc": {
+      "start": { "line": 209, "column": 0 },
+      "end": { "line": 209, "column": 88 }
+    },
+    "range": [3072, 3160],
+    "raw": "<img src=\"https://img-host.wemotion.co.jp/uploads/c-python/python-variable\" width=\"500\">"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "このレッスンでは、変数を使うメリットについて学んでいきましょう。",
+        "loc": {
+          "start": { "line": 211, "column": 0 },
+          "end": { "line": 211, "column": 32 }
+        },
+        "range": [3162, 3194],
+        "raw": "このレッスンでは、変数を使うメリットについて学んでいきましょう。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 211, "column": 0 },
+      "end": { "line": 211, "column": 32 }
+    },
+    "range": [3162, 3194],
+    "raw": "このレッスンでは、変数を使うメリットについて学んでいきましょう。"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "データに意味を持たせることができる",
+        "loc": {
+          "start": { "line": 213, "column": 4 },
+          "end": { "line": 213, "column": 21 }
+        },
+        "range": [3200, 3217],
+        "raw": "データに意味を持たせることができる"
+      }
+    ],
+    "loc": {
+      "start": { "line": 213, "column": 0 },
+      "end": { "line": 213, "column": 21 }
+    },
+    "range": [3196, 3217],
+    "raw": "### データに意味を持たせることができる"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "以下のコードは 100 と 200 を足しているということはわかりますが、その数字の意味はわかりかねます。",
+        "loc": {
+          "start": { "line": 215, "column": 0 },
+          "end": { "line": 215, "column": 53 }
+        },
+        "range": [3219, 3272],
+        "raw": "以下のコードは 100 と 200 を足しているということはわかりますが、その数字の意味はわかりかねます。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 215, "column": 0 },
+      "end": { "line": 215, "column": 53 }
+    },
+    "range": [3219, 3272],
+    "raw": "以下のコードは 100 と 200 を足しているということはわかりますが、その数字の意味はわかりかねます。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "python",
+    "meta": null,
+    "value": "total_price = 100 + 200",
+    "loc": {
+      "start": { "line": 217, "column": 0 },
+      "end": { "line": 219, "column": 3 }
+    },
+    "range": [3274, 3311],
+    "raw": "```python\ntotal_price = 100 + 200\n```"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "しかし、それぞれの数字を ",
+        "loc": {
+          "start": { "line": 221, "column": 0 },
+          "end": { "line": 221, "column": 13 }
+        },
+        "range": [3313, 3326],
+        "raw": "しかし、それぞれの数字を "
+      },
+      {
+        "type": "Code",
+        "value": "変数",
+        "loc": {
+          "start": { "line": 221, "column": 13 },
+          "end": { "line": 221, "column": 17 }
+        },
+        "range": [3326, 3330],
+        "raw": "`変数`"
+      },
+      {
+        "type": "Str",
+        "value": " に代入して計算することで、何の計算を行っているのかがわかり易くなります。",
+        "loc": {
+          "start": { "line": 221, "column": 17 },
+          "end": { "line": 221, "column": 54 }
+        },
+        "range": [3330, 3367],
+        "raw": " に代入して計算することで、何の計算を行っているのかがわかり易くなります。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 221, "column": 0 },
+      "end": { "line": 221, "column": 54 }
+    },
+    "range": [3313, 3367],
+    "raw": "しかし、それぞれの数字を `変数` に代入して計算することで、何の計算を行っているのかがわかり易くなります。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "python",
+    "meta": null,
+    "value": "apple_price = 100\norange_price = 200\n\n# りんごとオレンジの値段を計算している\ntotal_price = apple_price + orange_price",
+    "loc": {
+      "start": { "line": 223, "column": 0 },
+      "end": { "line": 229, "column": 3 }
+    },
+    "range": [3369, 3482],
+    "raw": "```python\napple_price = 100\norange_price = 200\n\n# りんごとオレンジの値段を計算している\ntotal_price = apple_price + orange_price\n```"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "繰り返し使用することができる",
+        "loc": {
+          "start": { "line": 231, "column": 4 },
+          "end": { "line": 231, "column": 18 }
+        },
+        "range": [3488, 3502],
+        "raw": "繰り返し使用することができる"
+      }
+    ],
+    "loc": {
+      "start": { "line": 231, "column": 0 },
+      "end": { "line": 231, "column": 18 }
+    },
+    "range": [3484, 3502],
+    "raw": "### 繰り返し使用することができる"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "python",
+    "meta": null,
+    "value": "tax_rate = 1.10\ntotal_price = price * tax_rate",
+    "loc": {
+      "start": { "line": 233, "column": 0 },
+      "end": { "line": 236, "column": 3 }
+    },
+    "range": [3504, 3564],
+    "raw": "```python\ntax_rate = 1.10\ntotal_price = price * tax_rate\n```"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "変更が容易になる",
+        "loc": {
+          "start": { "line": 238, "column": 4 },
+          "end": { "line": 238, "column": 12 }
+        },
+        "range": [3570, 3578],
+        "raw": "変更が容易になる"
+      }
+    ],
+    "loc": {
+      "start": { "line": 238, "column": 0 },
+      "end": { "line": 238, "column": 12 }
+    },
+    "range": [3566, 3578],
+    "raw": "### 変更が容易になる"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "消費税の変更を例にとってみましょう。",
+        "loc": {
+          "start": { "line": 240, "column": 0 },
+          "end": { "line": 240, "column": 18 }
+        },
+        "range": [3580, 3598],
+        "raw": "消費税の変更を例にとってみましょう。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 240, "column": 0 },
+      "end": { "line": 240, "column": 18 }
+    },
+    "range": [3580, 3598],
+    "raw": "消費税の変更を例にとってみましょう。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "python",
+    "meta": null,
+    "value": "apple = 100\ntax_rate = 0.8 #消費税率\n\napple_price = apple * tax_rate # tax_rate -> 0.8\n\nprint(apple_price)\n# => 108",
+    "loc": {
+      "start": { "line": 242, "column": 0 },
+      "end": { "line": 250, "column": 3 }
+    },
+    "range": [3600, 3725],
+    "raw": "```python\napple = 100\ntax_rate = 0.8 #消費税率\n\napple_price = apple * tax_rate # tax_rate -> 0.8\n\nprint(apple_price)\n# => 108\n```"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "このように消費税（tax）がそれぞれで計算されていますが、消費税に変更があった場合は変数",
+        "loc": {
+          "start": { "line": 252, "column": 0 },
+          "end": { "line": 252, "column": 44 }
+        },
+        "range": [3727, 3771],
+        "raw": "このように消費税（tax）がそれぞれで計算されていますが、消費税に変更があった場合は変数"
+      },
+      {
+        "type": "Code",
+        "value": "tax",
+        "loc": {
+          "start": { "line": 252, "column": 44 },
+          "end": { "line": 252, "column": 49 }
+        },
+        "range": [3771, 3776],
+        "raw": "`tax`"
+      },
+      {
+        "type": "Str",
+        "value": "の値を変更してあげるだけで済みます。",
+        "loc": {
+          "start": { "line": 252, "column": 49 },
+          "end": { "line": 252, "column": 67 }
+        },
+        "range": [3776, 3794],
+        "raw": "の値を変更してあげるだけで済みます。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 252, "column": 0 },
+      "end": { "line": 252, "column": 67 }
+    },
+    "range": [3727, 3794],
+    "raw": "このように消費税（tax）がそれぞれで計算されていますが、消費税に変更があった場合は変数`tax`の値を変更してあげるだけで済みます。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "python",
+    "meta": null,
+    "value": "apple = 100\ntax_rate = 1.0 # 消費税率を変更するだけでOK\n\napple_price = apple * tax_rate # tax_rate -> 1.0\n\nprint(apple_price)\n# => 110",
+    "loc": {
+      "start": { "line": 254, "column": 0 },
+      "end": { "line": 262, "column": 3 }
+    },
+    "range": [3796, 3932],
+    "raw": "```python\napple = 100\ntax_rate = 1.0 # 消費税率を変更するだけでOK\n\napple_price = apple * tax_rate # tax_rate -> 1.0\n\nprint(apple_price)\n# => 110\n```"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "問題",
+        "loc": {
+          "start": { "line": 264, "column": 4 },
+          "end": { "line": 264, "column": 6 }
+        },
+        "range": [3938, 3940],
+        "raw": "問題"
+      }
+    ],
+    "loc": {
+      "start": { "line": 264, "column": 0 },
+      "end": { "line": 264, "column": 6 }
+    },
+    "range": [3934, 3940],
+    "raw": "### 問題"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数を使用する目的として誤っているものを選択してください。",
+        "loc": {
+          "start": { "line": 266, "column": 0 },
+          "end": { "line": 266, "column": 29 }
+        },
+        "range": [3942, 3971],
+        "raw": "変数を使用する目的として誤っているものを選択してください。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 266, "column": 0 },
+      "end": { "line": 266, "column": 29 }
+    },
+    "range": [3942, 3971],
+    "raw": "変数を使用する目的として誤っているものを選択してください。"
+  },
+  {
+    "type": "List",
+    "ordered": false,
+    "start": null,
+    "spread": false,
+    "children": [
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "変更が容易になる",
+                "loc": {
+                  "start": { "line": 268, "column": 6 },
+                  "end": { "line": 268, "column": 14 }
+                },
+                "range": [3979, 3987],
+                "raw": "変更が容易になる"
+              }
+            ],
+            "loc": {
+              "start": { "line": 268, "column": 6 },
+              "end": { "line": 268, "column": 14 }
+            },
+            "range": [3979, 3987],
+            "raw": "変更が容易になる"
+          }
+        ],
+        "loc": {
+          "start": { "line": 268, "column": 0 },
+          "end": { "line": 268, "column": 14 }
+        },
+        "range": [3973, 3987],
+        "raw": "- [ ] 変更が容易になる"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": true,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "繰り返しの使用を防ぐ",
+                "loc": {
+                  "start": { "line": 269, "column": 6 },
+                  "end": { "line": 269, "column": 16 }
+                },
+                "range": [3994, 4004],
+                "raw": "繰り返しの使用を防ぐ"
+              }
+            ],
+            "loc": {
+              "start": { "line": 269, "column": 6 },
+              "end": { "line": 269, "column": 16 }
+            },
+            "range": [3994, 4004],
+            "raw": "繰り返しの使用を防ぐ"
+          }
+        ],
+        "loc": {
+          "start": { "line": 269, "column": 0 },
+          "end": { "line": 269, "column": 16 }
+        },
+        "range": [3988, 4004],
+        "raw": "- [x] 繰り返しの使用を防ぐ"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "メモリ上のデータにアクセスしやすくなる",
+                "loc": {
+                  "start": { "line": 270, "column": 6 },
+                  "end": { "line": 270, "column": 25 }
+                },
+                "range": [4011, 4030],
+                "raw": "メモリ上のデータにアクセスしやすくなる"
+              }
+            ],
+            "loc": {
+              "start": { "line": 270, "column": 6 },
+              "end": { "line": 270, "column": 25 }
+            },
+            "range": [4011, 4030],
+            "raw": "メモリ上のデータにアクセスしやすくなる"
+          }
+        ],
+        "loc": {
+          "start": { "line": 270, "column": 0 },
+          "end": { "line": 270, "column": 25 }
+        },
+        "range": [4005, 4030],
+        "raw": "- [ ] メモリ上のデータにアクセスしやすくなる"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "データに意味を持たせることができる",
+                "loc": {
+                  "start": { "line": 271, "column": 6 },
+                  "end": { "line": 271, "column": 23 }
+                },
+                "range": [4037, 4054],
+                "raw": "データに意味を持たせることができる"
+              }
+            ],
+            "loc": {
+              "start": { "line": 271, "column": 6 },
+              "end": { "line": 271, "column": 23 }
+            },
+            "range": [4037, 4054],
+            "raw": "データに意味を持たせることができる"
+          }
+        ],
+        "loc": {
+          "start": { "line": 271, "column": 0 },
+          "end": { "line": 271, "column": 23 }
+        },
+        "range": [4031, 4054],
+        "raw": "- [ ] データに意味を持たせることができる"
+      }
+    ],
+    "loc": {
+      "start": { "line": 268, "column": 0 },
+      "end": { "line": 271, "column": 23 }
+    },
+    "range": [3973, 4054],
+    "raw": "- [ ] 変更が容易になる\n- [x] 繰り返しの使用を防ぐ\n- [ ] メモリ上のデータにアクセスしやすくなる\n- [ ] データに意味を持たせることができる"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "解説",
+        "loc": {
+          "start": { "line": 273, "column": 4 },
+          "end": { "line": 273, "column": 6 }
+        },
+        "range": [4060, 4062],
+        "raw": "解説"
+      }
+    ],
+    "loc": {
+      "start": { "line": 273, "column": 0 },
+      "end": { "line": 273, "column": 6 }
+    },
+    "range": [4056, 4062],
+    "raw": "### 解説"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "正解は ",
+        "loc": {
+          "start": { "line": 275, "column": 0 },
+          "end": { "line": 275, "column": 4 }
+        },
+        "range": [4064, 4068],
+        "raw": "正解は "
+      },
+      {
+        "type": "Code",
+        "value": "繰り返しの使用を防ぐ",
+        "loc": {
+          "start": { "line": 275, "column": 4 },
+          "end": { "line": 275, "column": 16 }
+        },
+        "range": [4068, 4080],
+        "raw": "`繰り返しの使用を防ぐ`"
+      },
+      {
+        "type": "Str",
+        "value": " です。\n変数を定義してその変数を繰り返し使用すれば、もし変更点があったとしてもすぐに修正することができます。",
+        "loc": {
+          "start": { "line": 275, "column": 16 },
+          "end": { "line": 276, "column": 50 }
+        },
+        "range": [4080, 4135],
+        "raw": " です。\n変数を定義してその変数を繰り返し使用すれば、もし変更点があったとしてもすぐに修正することができます。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 275, "column": 0 },
+      "end": { "line": 276, "column": 50 }
+    },
+    "range": [4064, 4135],
+    "raw": "正解は `繰り返しの使用を防ぐ` です。\n変数を定義してその変数を繰り返し使用すれば、もし変更点があったとしてもすぐに修正することができます。"
+  },
+  {
+    "type": "HorizontalRule",
+    "loc": {
+      "start": { "line": 278, "column": 0 },
+      "end": { "line": 278, "column": 3 }
+    },
+    "range": [4137, 4140],
+    "raw": "---"
+  },
+  {
+    "type": "Header",
+    "depth": 2,
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数名のルール",
+        "loc": {
+          "start": { "line": 280, "column": 3 },
+          "end": { "line": 280, "column": 10 }
+        },
+        "range": [4145, 4152],
+        "raw": "変数名のルール"
+      }
+    ],
+    "loc": {
+      "start": { "line": 280, "column": 0 },
+      "end": { "line": 280, "column": 10 }
+    },
+    "range": [4142, 4152],
+    "raw": "## 変数名のルール"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "概要",
+        "loc": {
+          "start": { "line": 282, "column": 4 },
+          "end": { "line": 282, "column": 6 }
+        },
+        "range": [4158, 4160],
+        "raw": "概要"
+      }
+    ],
+    "loc": {
+      "start": { "line": 282, "column": 0 },
+      "end": { "line": 282, "column": 6 }
+    },
+    "range": [4154, 4160],
+    "raw": "### 概要"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数名のルールを学習しましょう．",
+        "loc": {
+          "start": { "line": 284, "column": 0 },
+          "end": { "line": 284, "column": 16 }
+        },
+        "range": [4162, 4178],
+        "raw": "変数名のルールを学習しましょう．"
+      }
+    ],
+    "loc": {
+      "start": { "line": 284, "column": 0 },
+      "end": { "line": 284, "column": 16 }
+    },
+    "range": [4162, 4178],
+    "raw": "変数名のルールを学習しましょう．"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "経験値",
+        "loc": {
+          "start": { "line": 286, "column": 4 },
+          "end": { "line": 286, "column": 7 }
+        },
+        "range": [4184, 4187],
+        "raw": "経験値"
+      }
+    ],
+    "loc": {
+      "start": { "line": 286, "column": 0 },
+      "end": { "line": 286, "column": 7 }
+    },
+    "range": [4180, 4187],
+    "raw": "### 経験値"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "100",
+        "loc": {
+          "start": { "line": 288, "column": 0 },
+          "end": { "line": 288, "column": 3 }
+        },
+        "range": [4189, 4192],
+        "raw": "100"
+      }
+    ],
+    "loc": {
+      "start": { "line": 288, "column": 0 },
+      "end": { "line": 288, "column": 3 }
+    },
+    "range": [4189, 4192],
+    "raw": "100"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "本文",
+        "loc": {
+          "start": { "line": 290, "column": 4 },
+          "end": { "line": 290, "column": 6 }
+        },
+        "range": [4198, 4200],
+        "raw": "本文"
+      }
+    ],
+    "loc": {
+      "start": { "line": 290, "column": 0 },
+      "end": { "line": 290, "column": 6 }
+    },
+    "range": [4194, 4200],
+    "raw": "### 本文"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "これまで変数について学んできましたが、変数の名前の付け方にはコーディング規約というルールが存在します。",
+        "loc": {
+          "start": { "line": 292, "column": 0 },
+          "end": { "line": 292, "column": 51 }
+        },
+        "range": [4202, 4253],
+        "raw": "これまで変数について学んできましたが、変数の名前の付け方にはコーディング規約というルールが存在します。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 292, "column": 0 },
+      "end": { "line": 292, "column": 51 }
+    },
+    "range": [4202, 4253],
+    "raw": "これまで変数について学んできましたが、変数の名前の付け方にはコーディング規約というルールが存在します。"
+  },
+  {
+    "type": "Table",
+    "align": [null, null, null],
+    "children": [
+      {
+        "type": "TableRow",
+        "children": [
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "規約",
+                "loc": {
+                  "start": { "line": 294, "column": 2 },
+                  "end": { "line": 294, "column": 4 }
+                },
+                "range": [4257, 4259],
+                "raw": "規約"
+              }
+            ],
+            "loc": {
+              "start": { "line": 294, "column": 0 },
+              "end": { "line": 294, "column": 42 }
+            },
+            "range": [4255, 4297],
+            "raw": "| 規約                                     |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "いい例",
+                "loc": {
+                  "start": { "line": 294, "column": 43 },
+                  "end": { "line": 294, "column": 46 }
+                },
+                "range": [4298, 4301],
+                "raw": "いい例"
+              }
+            ],
+            "loc": {
+              "start": { "line": 294, "column": 42 },
+              "end": { "line": 294, "column": 59 }
+            },
+            "range": [4297, 4314],
+            "raw": " いい例            |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "ダメな例",
+                "loc": {
+                  "start": { "line": 294, "column": 60 },
+                  "end": { "line": 294, "column": 64 }
+                },
+                "range": [4315, 4319],
+                "raw": "ダメな例"
+              }
+            ],
+            "loc": {
+              "start": { "line": 294, "column": 59 },
+              "end": { "line": 294, "column": 75 }
+            },
+            "range": [4314, 4330],
+            "raw": " ダメな例          |"
+          }
+        ],
+        "loc": {
+          "start": { "line": 294, "column": 0 },
+          "end": { "line": 294, "column": 75 }
+        },
+        "range": [4255, 4330],
+        "raw": "| 規約                                     | いい例            | ダメな例          |"
+      },
+      {
+        "type": "TableRow",
+        "children": [
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "変数の名前は小文字であること",
+                "loc": {
+                  "start": { "line": 296, "column": 2 },
+                  "end": { "line": 296, "column": 16 }
+                },
+                "range": [4418, 4432],
+                "raw": "変数の名前は小文字であること"
+              }
+            ],
+            "loc": {
+              "start": { "line": 296, "column": 0 },
+              "end": { "line": 296, "column": 30 }
+            },
+            "range": [4416, 4446],
+            "raw": "| 変数の名前は小文字であること             |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "animal",
+                "loc": {
+                  "start": { "line": 296, "column": 31 },
+                  "end": { "line": 296, "column": 37 }
+                },
+                "range": [4447, 4453],
+                "raw": "animal"
+              }
+            ],
+            "loc": {
+              "start": { "line": 296, "column": 30 },
+              "end": { "line": 296, "column": 50 }
+            },
+            "range": [4446, 4466],
+            "raw": " animal            |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "ANIMAL, Animal",
+                "loc": {
+                  "start": { "line": 296, "column": 51 },
+                  "end": { "line": 296, "column": 65 }
+                },
+                "range": [4467, 4481],
+                "raw": "ANIMAL, Animal"
+              }
+            ],
+            "loc": {
+              "start": { "line": 296, "column": 50 },
+              "end": { "line": 296, "column": 70 }
+            },
+            "range": [4466, 4486],
+            "raw": " ANIMAL, Animal    |"
+          }
+        ],
+        "loc": {
+          "start": { "line": 296, "column": 0 },
+          "end": { "line": 296, "column": 70 }
+        },
+        "range": [4416, 4486],
+        "raw": "| 変数の名前は小文字であること             | animal            | ANIMAL, Animal    |"
+      },
+      {
+        "type": "TableRow",
+        "children": [
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "必要に応じて単語をアンダースコアで区切る",
+                "loc": {
+                  "start": { "line": 297, "column": 2 },
+                  "end": { "line": 297, "column": 22 }
+                },
+                "range": [4489, 4509],
+                "raw": "必要に応じて単語をアンダースコアで区切る"
+              }
+            ],
+            "loc": {
+              "start": { "line": 297, "column": 0 },
+              "end": { "line": 297, "column": 24 }
+            },
+            "range": [4487, 4511],
+            "raw": "| 必要に応じて単語をアンダースコアで区切る |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "animal_age",
+                "loc": {
+                  "start": { "line": 297, "column": 25 },
+                  "end": { "line": 297, "column": 35 }
+                },
+                "range": [4512, 4522],
+                "raw": "animal_age"
+              }
+            ],
+            "loc": {
+              "start": { "line": 297, "column": 24 },
+              "end": { "line": 297, "column": 44 }
+            },
+            "range": [4511, 4531],
+            "raw": " animal_age        |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "animalAge",
+                "loc": {
+                  "start": { "line": 297, "column": 45 },
+                  "end": { "line": 297, "column": 54 }
+                },
+                "range": [4532, 4541],
+                "raw": "animalAge"
+              }
+            ],
+            "loc": {
+              "start": { "line": 297, "column": 44 },
+              "end": { "line": 297, "column": 64 }
+            },
+            "range": [4531, 4551],
+            "raw": " animalAge         |"
+          }
+        ],
+        "loc": {
+          "start": { "line": 297, "column": 0 },
+          "end": { "line": 297, "column": 64 }
+        },
+        "range": [4487, 4551],
+        "raw": "| 必要に応じて単語をアンダースコアで区切る | animal_age        | animalAge         |"
+      },
+      {
+        "type": "TableRow",
+        "children": [
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "最初の文字列を数字してはならない",
+                "loc": {
+                  "start": { "line": 298, "column": 2 },
+                  "end": { "line": 298, "column": 18 }
+                },
+                "range": [4554, 4570],
+                "raw": "最初の文字列を数字してはならない"
+              }
+            ],
+            "loc": {
+              "start": { "line": 298, "column": 0 },
+              "end": { "line": 298, "column": 28 }
+            },
+            "range": [4552, 4580],
+            "raw": "| 最初の文字列を数字してはならない         |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "animal1, animal_1",
+                "loc": {
+                  "start": { "line": 298, "column": 29 },
+                  "end": { "line": 298, "column": 46 }
+                },
+                "range": [4581, 4598],
+                "raw": "animal1, animal_1"
+              }
+            ],
+            "loc": {
+              "start": { "line": 298, "column": 28 },
+              "end": { "line": 298, "column": 48 }
+            },
+            "range": [4580, 4600],
+            "raw": " animal1, animal_1 |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "1animal, 1_animal",
+                "loc": {
+                  "start": { "line": 298, "column": 49 },
+                  "end": { "line": 298, "column": 66 }
+                },
+                "range": [4601, 4618],
+                "raw": "1animal, 1_animal"
+              }
+            ],
+            "loc": {
+              "start": { "line": 298, "column": 48 },
+              "end": { "line": 298, "column": 68 }
+            },
+            "range": [4600, 4620],
+            "raw": " 1animal, 1_animal |"
+          }
+        ],
+        "loc": {
+          "start": { "line": 298, "column": 0 },
+          "end": { "line": 298, "column": 68 }
+        },
+        "range": [4552, 4620],
+        "raw": "| 最初の文字列を数字してはならない         | animal1, animal_1 | 1animal, 1_animal |"
+      },
+      {
+        "type": "TableRow",
+        "children": [
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "予約後と同じ名前/記号は使用できない",
+                "loc": {
+                  "start": { "line": 299, "column": 2 },
+                  "end": { "line": 299, "column": 20 }
+                },
+                "range": [4623, 4641],
+                "raw": "予約後と同じ名前/記号は使用できない"
+              }
+            ],
+            "loc": {
+              "start": { "line": 299, "column": 0 },
+              "end": { "line": 299, "column": 27 }
+            },
+            "range": [4621, 4648],
+            "raw": "| 予約後と同じ名前/記号は使用できない      |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "animal",
+                "loc": {
+                  "start": { "line": 299, "column": 28 },
+                  "end": { "line": 299, "column": 34 }
+                },
+                "range": [4649, 4655],
+                "raw": "animal"
+              }
+            ],
+            "loc": {
+              "start": { "line": 299, "column": 27 },
+              "end": { "line": 299, "column": 47 }
+            },
+            "range": [4648, 4668],
+            "raw": " animal            |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "for, if, animal%",
+                "loc": {
+                  "start": { "line": 299, "column": 48 },
+                  "end": { "line": 299, "column": 64 }
+                },
+                "range": [4669, 4685],
+                "raw": "for, if, animal%"
+              }
+            ],
+            "loc": {
+              "start": { "line": 299, "column": 47 },
+              "end": { "line": 299, "column": 67 }
+            },
+            "range": [4668, 4688],
+            "raw": " for, if, animal%  |"
+          }
+        ],
+        "loc": {
+          "start": { "line": 299, "column": 0 },
+          "end": { "line": 299, "column": 67 }
+        },
+        "range": [4621, 4688],
+        "raw": "| 予約後と同じ名前/記号は使用できない      | animal            | for, if, animal%  |"
+      }
+    ],
+    "loc": {
+      "start": { "line": 294, "column": 0 },
+      "end": { "line": 299, "column": 67 }
+    },
+    "range": [4255, 4688],
+    "raw": "| 規約                                     | いい例            | ダメな例          |\n| ---------------------------------------- | ----------------- | ----------------- |\n| 変数の名前は小文字であること             | animal            | ANIMAL, Animal    |\n| 必要に応じて単語をアンダースコアで区切る | animal_age        | animalAge         |\n| 最初の文字列を数字してはならない         | animal1, animal_1 | 1animal, 1_animal |\n| 予約後と同じ名前/記号は使用できない      | animal            | for, if, animal%  |"
+  },
+  {
+    "type": "List",
+    "ordered": false,
+    "start": null,
+    "spread": false,
+    "children": [
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": null,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "予約語及とは、",
+                "loc": {
+                  "start": { "line": 301, "column": 2 },
+                  "end": { "line": 301, "column": 9 }
+                },
+                "range": [4692, 4699],
+                "raw": "予約語及とは、"
+              },
+              {
+                "type": "Code",
+                "value": "for",
+                "loc": {
+                  "start": { "line": 301, "column": 9 },
+                  "end": { "line": 301, "column": 14 }
+                },
+                "range": [4699, 4704],
+                "raw": "`for`"
+              },
+              {
+                "type": "Str",
+                "value": " や ",
+                "loc": {
+                  "start": { "line": 301, "column": 14 },
+                  "end": { "line": 301, "column": 17 }
+                },
+                "range": [4704, 4707],
+                "raw": " や "
+              },
+              {
+                "type": "Code",
+                "value": "if",
+                "loc": {
+                  "start": { "line": 301, "column": 17 },
+                  "end": { "line": 301, "column": 21 }
+                },
+                "range": [4707, 4711],
+                "raw": "`if`"
+              },
+              {
+                "type": "Str",
+                "value": " などの文法上特殊な意味を持つ単語のことです。",
+                "loc": {
+                  "start": { "line": 301, "column": 21 },
+                  "end": { "line": 301, "column": 44 }
+                },
+                "range": [4711, 4734],
+                "raw": " などの文法上特殊な意味を持つ単語のことです。"
+              }
+            ],
+            "loc": {
+              "start": { "line": 301, "column": 2 },
+              "end": { "line": 301, "column": 44 }
+            },
+            "range": [4692, 4734],
+            "raw": "予約語及とは、`for` や `if` などの文法上特殊な意味を持つ単語のことです。"
+          }
+        ],
+        "loc": {
+          "start": { "line": 301, "column": 0 },
+          "end": { "line": 301, "column": 44 }
+        },
+        "range": [4690, 4734],
+        "raw": "- 予約語及とは、`for` や `if` などの文法上特殊な意味を持つ単語のことです。"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": null,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "命名規則に従わずにコードを記述しても動作はしますが、コードの可読性の悪化や思いがけないバグの原因になるので、規約に従って命名するように心がけましょう。",
+                "loc": {
+                  "start": { "line": 302, "column": 2 },
+                  "end": { "line": 302, "column": 77 }
+                },
+                "range": [4737, 4812],
+                "raw": "命名規則に従わずにコードを記述しても動作はしますが、コードの可読性の悪化や思いがけないバグの原因になるので、規約に従って命名するように心がけましょう。"
+              }
+            ],
+            "loc": {
+              "start": { "line": 302, "column": 2 },
+              "end": { "line": 302, "column": 77 }
+            },
+            "range": [4737, 4812],
+            "raw": "命名規則に従わずにコードを記述しても動作はしますが、コードの可読性の悪化や思いがけないバグの原因になるので、規約に従って命名するように心がけましょう。"
+          }
+        ],
+        "loc": {
+          "start": { "line": 302, "column": 0 },
+          "end": { "line": 302, "column": 77 }
+        },
+        "range": [4735, 4812],
+        "raw": "- 命名規則に従わずにコードを記述しても動作はしますが、コードの可読性の悪化や思いがけないバグの原因になるので、規約に従って命名するように心がけましょう。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 301, "column": 0 },
+      "end": { "line": 302, "column": 77 }
+    },
+    "range": [4690, 4812],
+    "raw": "- 予約語及とは、`for` や `if` などの文法上特殊な意味を持つ単語のことです。\n- 命名規則に従わずにコードを記述しても動作はしますが、コードの可読性の悪化や思いがけないバグの原因になるので、規約に従って命名するように心がけましょう。"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "問題",
+        "loc": {
+          "start": { "line": 304, "column": 4 },
+          "end": { "line": 304, "column": 6 }
+        },
+        "range": [4818, 4820],
+        "raw": "問題"
+      }
+    ],
+    "loc": {
+      "start": { "line": 304, "column": 0 },
+      "end": { "line": 304, "column": 6 }
+    },
+    "range": [4814, 4820],
+    "raw": "### 問題"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数名として正しくないものを選択してくだい。",
+        "loc": {
+          "start": { "line": 306, "column": 0 },
+          "end": { "line": 306, "column": 22 }
+        },
+        "range": [4822, 4844],
+        "raw": "変数名として正しくないものを選択してくだい。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 306, "column": 0 },
+      "end": { "line": 306, "column": 22 }
+    },
+    "range": [4822, 4844],
+    "raw": "変数名として正しくないものを選択してくだい。"
+  },
+  {
+    "type": "List",
+    "ordered": false,
+    "start": null,
+    "spread": false,
+    "children": [
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "monster1",
+                "loc": {
+                  "start": { "line": 308, "column": 6 },
+                  "end": { "line": 308, "column": 14 }
+                },
+                "range": [4852, 4860],
+                "raw": "monster1"
+              }
+            ],
+            "loc": {
+              "start": { "line": 308, "column": 6 },
+              "end": { "line": 308, "column": 14 }
+            },
+            "range": [4852, 4860],
+            "raw": "monster1"
+          }
+        ],
+        "loc": {
+          "start": { "line": 308, "column": 0 },
+          "end": { "line": 308, "column": 14 }
+        },
+        "range": [4846, 4860],
+        "raw": "- [ ] monster1"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "monster",
+                "loc": {
+                  "start": { "line": 309, "column": 6 },
+                  "end": { "line": 309, "column": 13 }
+                },
+                "range": [4867, 4874],
+                "raw": "monster"
+              }
+            ],
+            "loc": {
+              "start": { "line": 309, "column": 6 },
+              "end": { "line": 309, "column": 13 }
+            },
+            "range": [4867, 4874],
+            "raw": "monster"
+          }
+        ],
+        "loc": {
+          "start": { "line": 309, "column": 0 },
+          "end": { "line": 309, "column": 13 }
+        },
+        "range": [4861, 4874],
+        "raw": "- [ ] monster"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "cute_animal",
+                "loc": {
+                  "start": { "line": 310, "column": 6 },
+                  "end": { "line": 310, "column": 17 }
+                },
+                "range": [4881, 4892],
+                "raw": "cute_animal"
+              }
+            ],
+            "loc": {
+              "start": { "line": 310, "column": 6 },
+              "end": { "line": 310, "column": 17 }
+            },
+            "range": [4881, 4892],
+            "raw": "cute_animal"
+          }
+        ],
+        "loc": {
+          "start": { "line": 310, "column": 0 },
+          "end": { "line": 310, "column": 17 }
+        },
+        "range": [4875, 4892],
+        "raw": "- [ ] cute_animal"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": true,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "else",
+                "loc": {
+                  "start": { "line": 311, "column": 6 },
+                  "end": { "line": 311, "column": 10 }
+                },
+                "range": [4899, 4903],
+                "raw": "else"
+              }
+            ],
+            "loc": {
+              "start": { "line": 311, "column": 6 },
+              "end": { "line": 311, "column": 10 }
+            },
+            "range": [4899, 4903],
+            "raw": "else"
+          }
+        ],
+        "loc": {
+          "start": { "line": 311, "column": 0 },
+          "end": { "line": 311, "column": 10 }
+        },
+        "range": [4893, 4903],
+        "raw": "- [x] else"
+      }
+    ],
+    "loc": {
+      "start": { "line": 308, "column": 0 },
+      "end": { "line": 311, "column": 10 }
+    },
+    "range": [4846, 4903],
+    "raw": "- [ ] monster1\n- [ ] monster\n- [ ] cute_animal\n- [x] else"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "解説",
+        "loc": {
+          "start": { "line": 313, "column": 4 },
+          "end": { "line": 313, "column": 6 }
+        },
+        "range": [4909, 4911],
+        "raw": "解説"
+      }
+    ],
+    "loc": {
+      "start": { "line": 313, "column": 0 },
+      "end": { "line": 313, "column": 6 }
+    },
+    "range": [4905, 4911],
+    "raw": "### 解説"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "正解は ",
+        "loc": {
+          "start": { "line": 315, "column": 0 },
+          "end": { "line": 315, "column": 4 }
+        },
+        "range": [4913, 4917],
+        "raw": "正解は "
+      },
+      {
+        "type": "Code",
+        "value": "else",
+        "loc": {
+          "start": { "line": 315, "column": 4 },
+          "end": { "line": 315, "column": 10 }
+        },
+        "range": [4917, 4923],
+        "raw": "`else`"
+      },
+      {
+        "type": "Str",
+        "value": " です。\nelse は予約語なので変数名としては使用できません。使用した場合以下のようなエラーメッセージが表示されます。",
+        "loc": {
+          "start": { "line": 315, "column": 10 },
+          "end": { "line": 316, "column": 55 }
+        },
+        "range": [4923, 4983],
+        "raw": " です。\nelse は予約語なので変数名としては使用できません。使用した場合以下のようなエラーメッセージが表示されます。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 315, "column": 0 },
+      "end": { "line": 316, "column": 55 }
+    },
+    "range": [4913, 4983],
+    "raw": "正解は `else` です。\nelse は予約語なので変数名としては使用できません。使用した場合以下のようなエラーメッセージが表示されます。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "shell",
+    "meta": null,
+    "value": "SyntaxError: invalid syntax",
+    "loc": {
+      "start": { "line": 318, "column": 0 },
+      "end": { "line": 320, "column": 3 }
+    },
+    "range": [4985, 5025],
+    "raw": "```shell\nSyntaxError: invalid syntax\n```"
+  },
+  {
+    "type": "HorizontalRule",
+    "loc": {
+      "start": { "line": 322, "column": 0 },
+      "end": { "line": 322, "column": 3 }
+    },
+    "range": [5027, 5030],
+    "raw": "---"
+  },
+  {
+    "type": "Header",
+    "depth": 2,
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数の宣言と更新",
+        "loc": {
+          "start": { "line": 324, "column": 3 },
+          "end": { "line": 324, "column": 11 }
+        },
+        "range": [5035, 5043],
+        "raw": "変数の宣言と更新"
+      }
+    ],
+    "loc": {
+      "start": { "line": 324, "column": 0 },
+      "end": { "line": 324, "column": 11 }
+    },
+    "range": [5032, 5043],
+    "raw": "## 変数の宣言と更新"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "概要",
+        "loc": {
+          "start": { "line": 326, "column": 4 },
+          "end": { "line": 326, "column": 6 }
+        },
+        "range": [5049, 5051],
+        "raw": "概要"
+      }
+    ],
+    "loc": {
+      "start": { "line": 326, "column": 0 },
+      "end": { "line": 326, "column": 6 }
+    },
+    "range": [5045, 5051],
+    "raw": "### 概要"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数の宣言と更新を学習しましょう",
+        "loc": {
+          "start": { "line": 328, "column": 0 },
+          "end": { "line": 328, "column": 16 }
+        },
+        "range": [5053, 5069],
+        "raw": "変数の宣言と更新を学習しましょう"
+      }
+    ],
+    "loc": {
+      "start": { "line": 328, "column": 0 },
+      "end": { "line": 328, "column": 16 }
+    },
+    "range": [5053, 5069],
+    "raw": "変数の宣言と更新を学習しましょう"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "経験値",
+        "loc": {
+          "start": { "line": 330, "column": 4 },
+          "end": { "line": 330, "column": 7 }
+        },
+        "range": [5075, 5078],
+        "raw": "経験値"
+      }
+    ],
+    "loc": {
+      "start": { "line": 330, "column": 0 },
+      "end": { "line": 330, "column": 7 }
+    },
+    "range": [5071, 5078],
+    "raw": "### 経験値"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "100",
+        "loc": {
+          "start": { "line": 332, "column": 0 },
+          "end": { "line": 332, "column": 3 }
+        },
+        "range": [5080, 5083],
+        "raw": "100"
+      }
+    ],
+    "loc": {
+      "start": { "line": 332, "column": 0 },
+      "end": { "line": 332, "column": 3 }
+    },
+    "range": [5080, 5083],
+    "raw": "100"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "本文",
+        "loc": {
+          "start": { "line": 334, "column": 4 },
+          "end": { "line": 334, "column": 6 }
+        },
+        "range": [5089, 5091],
+        "raw": "本文"
+      }
+    ],
+    "loc": {
+      "start": { "line": 334, "column": 0 },
+      "end": { "line": 334, "column": 6 }
+    },
+    "range": [5085, 5091],
+    "raw": "### 本文"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数を使うためには、まず変数を宣言する必要があります。\nまた、宣言した変数を出力することで、変数の中身を確認することができます。",
+        "loc": {
+          "start": { "line": 336, "column": 0 },
+          "end": { "line": 337, "column": 36 }
+        },
+        "range": [5093, 5157],
+        "raw": "変数を使うためには、まず変数を宣言する必要があります。\nまた、宣言した変数を出力することで、変数の中身を確認することができます。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 336, "column": 0 },
+      "end": { "line": 337, "column": 36 }
+    },
+    "range": [5093, 5157],
+    "raw": "変数を使うためには、まず変数を宣言する必要があります。\nまた、宣言した変数を出力することで、変数の中身を確認することができます。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "python",
+    "meta": null,
+    "value": "fruit = \"apple\"\nprint(fruit)\n# => apple",
+    "loc": {
+      "start": { "line": 339, "column": 0 },
+      "end": { "line": 343, "column": 3 }
+    },
+    "range": [5159, 5212],
+    "raw": "```python\nfruit = \"apple\"\nprint(fruit)\n# => apple\n```"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数はデータを格納するだけではなく、更新することもできます。",
+        "loc": {
+          "start": { "line": 345, "column": 0 },
+          "end": { "line": 345, "column": 30 }
+        },
+        "range": [5214, 5244],
+        "raw": "変数はデータを格納するだけではなく、更新することもできます。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 345, "column": 0 },
+      "end": { "line": 345, "column": 30 }
+    },
+    "range": [5214, 5244],
+    "raw": "変数はデータを格納するだけではなく、更新することもできます。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "python",
+    "meta": null,
+    "value": "fruit = \"apple\"\nprint(fruit)\n# => apple\n\nfruit = \"orange\"\nprint(fruit)\n# => orange",
+    "loc": {
+      "start": { "line": 347, "column": 0 },
+      "end": { "line": 355, "column": 3 }
+    },
+    "range": [5246, 5342],
+    "raw": "```python\nfruit = \"apple\"\nprint(fruit)\n# => apple\n\nfruit = \"orange\"\nprint(fruit)\n# => orange\n```"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "また変数に数値を四則演算して更新したい場合は...",
+        "loc": {
+          "start": { "line": 357, "column": 0 },
+          "end": { "line": 357, "column": 25 }
+        },
+        "range": [5344, 5369],
+        "raw": "また変数に数値を四則演算して更新したい場合は..."
+      }
+    ],
+    "loc": {
+      "start": { "line": 357, "column": 0 },
+      "end": { "line": 357, "column": 25 }
+    },
+    "range": [5344, 5369],
+    "raw": "また変数に数値を四則演算して更新したい場合は..."
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "python",
+    "meta": null,
+    "value": "price = 100\nprint(price)\n# => 100\n\nprice += 200 # price = price + 200と同じ\nprint(price)\n# => 300\n\nprice -= 50 # price = price - 50と同じ\nprint(price)\n# => 250\n\nprice *= 2 # price = price * 2と同じ\nprint(price)\n# => 500\n\nprice /= 5 # price = price / 5と同じ\nprint(price)\n# => 100",
+    "loc": {
+      "start": { "line": 359, "column": 0 },
+      "end": { "line": 379, "column": 3 }
+    },
+    "range": [5371, 5652],
+    "raw": "```python\nprice = 100\nprint(price)\n# => 100\n\nprice += 200 # price = price + 200と同じ\nprint(price)\n# => 300\n\nprice -= 50 # price = price - 50と同じ\nprint(price)\n# => 250\n\nprice *= 2 # price = price * 2と同じ\nprint(price)\n# => 500\n\nprice /= 5 # price = price / 5と同じ\nprint(price)\n# => 100\n```"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "問題",
+        "loc": {
+          "start": { "line": 381, "column": 4 },
+          "end": { "line": 381, "column": 6 }
+        },
+        "range": [5658, 5660],
+        "raw": "問題"
+      }
+    ],
+    "loc": {
+      "start": { "line": 381, "column": 0 },
+      "end": { "line": 381, "column": 6 }
+    },
+    "range": [5654, 5660],
+    "raw": "### 問題"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "以下のコードの実行結果として正しいモノを選択してください。",
+        "loc": {
+          "start": { "line": 383, "column": 0 },
+          "end": { "line": 383, "column": 29 }
+        },
+        "range": [5662, 5691],
+        "raw": "以下のコードの実行結果として正しいモノを選択してください。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 383, "column": 0 },
+      "end": { "line": 383, "column": 29 }
+    },
+    "range": [5662, 5691],
+    "raw": "以下のコードの実行結果として正しいモノを選択してください。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "python",
+    "meta": null,
+    "value": "total = 0\n\ntotal += 100\ntotal /= 10\ntotal *= 2\ntotal = 300\n\nprint(total)",
+    "loc": {
+      "start": { "line": 385, "column": 0 },
+      "end": { "line": 394, "column": 3 }
+    },
+    "range": [5693, 5779],
+    "raw": "```python\ntotal = 0\n\ntotal += 100\ntotal /= 10\ntotal *= 2\ntotal = 300\n\nprint(total)\n```"
+  },
+  {
+    "type": "List",
+    "ordered": false,
+    "start": null,
+    "spread": false,
+    "children": [
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "20",
+                "loc": {
+                  "start": { "line": 396, "column": 6 },
+                  "end": { "line": 396, "column": 8 }
+                },
+                "range": [5787, 5789],
+                "raw": "20"
+              }
+            ],
+            "loc": {
+              "start": { "line": 396, "column": 6 },
+              "end": { "line": 396, "column": 8 }
+            },
+            "range": [5787, 5789],
+            "raw": "20"
+          }
+        ],
+        "loc": {
+          "start": { "line": 396, "column": 0 },
+          "end": { "line": 396, "column": 8 }
+        },
+        "range": [5781, 5789],
+        "raw": "- [ ] 20"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "230",
+                "loc": {
+                  "start": { "line": 397, "column": 6 },
+                  "end": { "line": 397, "column": 9 }
+                },
+                "range": [5796, 5799],
+                "raw": "230"
+              }
+            ],
+            "loc": {
+              "start": { "line": 397, "column": 6 },
+              "end": { "line": 397, "column": 9 }
+            },
+            "range": [5796, 5799],
+            "raw": "230"
+          }
+        ],
+        "loc": {
+          "start": { "line": 397, "column": 0 },
+          "end": { "line": 397, "column": 9 }
+        },
+        "range": [5790, 5799],
+        "raw": "- [ ] 230"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": true,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "200",
+                "loc": {
+                  "start": { "line": 398, "column": 6 },
+                  "end": { "line": 398, "column": 9 }
+                },
+                "range": [5806, 5809],
+                "raw": "200"
+              }
+            ],
+            "loc": {
+              "start": { "line": 398, "column": 6 },
+              "end": { "line": 398, "column": 9 }
+            },
+            "range": [5806, 5809],
+            "raw": "200"
+          }
+        ],
+        "loc": {
+          "start": { "line": 398, "column": 0 },
+          "end": { "line": 398, "column": 9 }
+        },
+        "range": [5800, 5809],
+        "raw": "- [x] 200"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "220",
+                "loc": {
+                  "start": { "line": 399, "column": 6 },
+                  "end": { "line": 399, "column": 9 }
+                },
+                "range": [5816, 5819],
+                "raw": "220"
+              }
+            ],
+            "loc": {
+              "start": { "line": 399, "column": 6 },
+              "end": { "line": 399, "column": 9 }
+            },
+            "range": [5816, 5819],
+            "raw": "220"
+          }
+        ],
+        "loc": {
+          "start": { "line": 399, "column": 0 },
+          "end": { "line": 399, "column": 9 }
+        },
+        "range": [5810, 5819],
+        "raw": "- [ ] 220"
+      }
+    ],
+    "loc": {
+      "start": { "line": 396, "column": 0 },
+      "end": { "line": 399, "column": 9 }
+    },
+    "range": [5781, 5819],
+    "raw": "- [ ] 20\n- [ ] 230\n- [x] 200\n- [ ] 220"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "解説",
+        "loc": {
+          "start": { "line": 401, "column": 4 },
+          "end": { "line": 401, "column": 6 }
+        },
+        "range": [5825, 5827],
+        "raw": "解説"
+      }
+    ],
+    "loc": {
+      "start": { "line": 401, "column": 0 },
+      "end": { "line": 401, "column": 6 }
+    },
+    "range": [5821, 5827],
+    "raw": "### 解説"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "正解は ",
+        "loc": {
+          "start": { "line": 403, "column": 0 },
+          "end": { "line": 403, "column": 4 }
+        },
+        "range": [5829, 5833],
+        "raw": "正解は "
+      },
+      {
+        "type": "Code",
+        "value": "300",
+        "loc": {
+          "start": { "line": 403, "column": 4 },
+          "end": { "line": 403, "column": 9 }
+        },
+        "range": [5833, 5838],
+        "raw": "`300`"
+      },
+      {
+        "type": "Str",
+        "value": " です。\nはじめに ",
+        "loc": {
+          "start": { "line": 403, "column": 9 },
+          "end": { "line": 404, "column": 5 }
+        },
+        "range": [5838, 5848],
+        "raw": " です。\nはじめに "
+      },
+      {
+        "type": "Code",
+        "value": "total",
+        "loc": {
+          "start": { "line": 404, "column": 5 },
+          "end": { "line": 404, "column": 12 }
+        },
+        "range": [5848, 5855],
+        "raw": "`total`"
+      },
+      {
+        "type": "Str",
+        "value": " という変数に 0 を代入し、４回更新していますが、最後の更新で 300 で上書きしているため 300 となります。",
+        "loc": {
+          "start": { "line": 404, "column": 12 },
+          "end": { "line": 404, "column": 70 }
+        },
+        "range": [5855, 5913],
+        "raw": " という変数に 0 を代入し、４回更新していますが、最後の更新で 300 で上書きしているため 300 となります。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 403, "column": 0 },
+      "end": { "line": 404, "column": 70 }
+    },
+    "range": [5829, 5913],
+    "raw": "正解は `300` です。\nはじめに `total` という変数に 0 を代入し、４回更新していますが、最後の更新で 300 で上書きしているため 300 となります。"
+  },
+  {
+    "type": "HorizontalRule",
+    "loc": {
+      "start": { "line": 406, "column": 0 },
+      "end": { "line": 406, "column": 3 }
+    },
+    "range": [5915, 5918],
+    "raw": "---"
+  },
+  {
+    "type": "Header",
+    "depth": 2,
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数名のルール",
+        "loc": {
+          "start": { "line": 408, "column": 3 },
+          "end": { "line": 408, "column": 10 }
+        },
+        "range": [5923, 5930],
+        "raw": "変数名のルール"
+      }
+    ],
+    "loc": {
+      "start": { "line": 408, "column": 0 },
+      "end": { "line": 408, "column": 10 }
+    },
+    "range": [5920, 5930],
+    "raw": "## 変数名のルール"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "概要",
+        "loc": {
+          "start": { "line": 410, "column": 4 },
+          "end": { "line": 410, "column": 6 }
+        },
+        "range": [5936, 5938],
+        "raw": "概要"
+      }
+    ],
+    "loc": {
+      "start": { "line": 410, "column": 0 },
+      "end": { "line": 410, "column": 6 }
+    },
+    "range": [5932, 5938],
+    "raw": "### 概要"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数名のルールを学習しましょう．",
+        "loc": {
+          "start": { "line": 412, "column": 0 },
+          "end": { "line": 412, "column": 16 }
+        },
+        "range": [5940, 5956],
+        "raw": "変数名のルールを学習しましょう．"
+      }
+    ],
+    "loc": {
+      "start": { "line": 412, "column": 0 },
+      "end": { "line": 412, "column": 16 }
+    },
+    "range": [5940, 5956],
+    "raw": "変数名のルールを学習しましょう．"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "経験値",
+        "loc": {
+          "start": { "line": 414, "column": 4 },
+          "end": { "line": 414, "column": 7 }
+        },
+        "range": [5962, 5965],
+        "raw": "経験値"
+      }
+    ],
+    "loc": {
+      "start": { "line": 414, "column": 0 },
+      "end": { "line": 414, "column": 7 }
+    },
+    "range": [5958, 5965],
+    "raw": "### 経験値"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "100",
+        "loc": {
+          "start": { "line": 416, "column": 0 },
+          "end": { "line": 416, "column": 3 }
+        },
+        "range": [5967, 5970],
+        "raw": "100"
+      }
+    ],
+    "loc": {
+      "start": { "line": 416, "column": 0 },
+      "end": { "line": 416, "column": 3 }
+    },
+    "range": [5967, 5970],
+    "raw": "100"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "本文",
+        "loc": {
+          "start": { "line": 418, "column": 4 },
+          "end": { "line": 418, "column": 6 }
+        },
+        "range": [5976, 5978],
+        "raw": "本文"
+      }
+    ],
+    "loc": {
+      "start": { "line": 418, "column": 0 },
+      "end": { "line": 418, "column": 6 }
+    },
+    "range": [5972, 5978],
+    "raw": "### 本文"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "これまで変数について学んできましたが、変数の名前の付け方にはコーディング規約というルールが存在します。",
+        "loc": {
+          "start": { "line": 420, "column": 0 },
+          "end": { "line": 420, "column": 51 }
+        },
+        "range": [5980, 6031],
+        "raw": "これまで変数について学んできましたが、変数の名前の付け方にはコーディング規約というルールが存在します。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 420, "column": 0 },
+      "end": { "line": 420, "column": 51 }
+    },
+    "range": [5980, 6031],
+    "raw": "これまで変数について学んできましたが、変数の名前の付け方にはコーディング規約というルールが存在します。"
+  },
+  {
+    "type": "Table",
+    "align": [null, null, null],
+    "children": [
+      {
+        "type": "TableRow",
+        "children": [
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "規約",
+                "loc": {
+                  "start": { "line": 422, "column": 2 },
+                  "end": { "line": 422, "column": 4 }
+                },
+                "range": [6035, 6037],
+                "raw": "規約"
+              }
+            ],
+            "loc": {
+              "start": { "line": 422, "column": 0 },
+              "end": { "line": 422, "column": 42 }
+            },
+            "range": [6033, 6075],
+            "raw": "| 規約                                     |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "いい例",
+                "loc": {
+                  "start": { "line": 422, "column": 43 },
+                  "end": { "line": 422, "column": 46 }
+                },
+                "range": [6076, 6079],
+                "raw": "いい例"
+              }
+            ],
+            "loc": {
+              "start": { "line": 422, "column": 42 },
+              "end": { "line": 422, "column": 59 }
+            },
+            "range": [6075, 6092],
+            "raw": " いい例            |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "ダメな例",
+                "loc": {
+                  "start": { "line": 422, "column": 60 },
+                  "end": { "line": 422, "column": 64 }
+                },
+                "range": [6093, 6097],
+                "raw": "ダメな例"
+              }
+            ],
+            "loc": {
+              "start": { "line": 422, "column": 59 },
+              "end": { "line": 422, "column": 75 }
+            },
+            "range": [6092, 6108],
+            "raw": " ダメな例          |"
+          }
+        ],
+        "loc": {
+          "start": { "line": 422, "column": 0 },
+          "end": { "line": 422, "column": 75 }
+        },
+        "range": [6033, 6108],
+        "raw": "| 規約                                     | いい例            | ダメな例          |"
+      },
+      {
+        "type": "TableRow",
+        "children": [
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "必要に応じて単語をアンダースコアで区切る",
+                "loc": {
+                  "start": { "line": 424, "column": 2 },
+                  "end": { "line": 424, "column": 22 }
+                },
+                "range": [6196, 6216],
+                "raw": "必要に応じて単語をアンダースコアで区切る"
+              }
+            ],
+            "loc": {
+              "start": { "line": 424, "column": 0 },
+              "end": { "line": 424, "column": 24 }
+            },
+            "range": [6194, 6218],
+            "raw": "| 必要に応じて単語をアンダースコアで区切る |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "animal_age",
+                "loc": {
+                  "start": { "line": 424, "column": 25 },
+                  "end": { "line": 424, "column": 35 }
+                },
+                "range": [6219, 6229],
+                "raw": "animal_age"
+              }
+            ],
+            "loc": {
+              "start": { "line": 424, "column": 24 },
+              "end": { "line": 424, "column": 44 }
+            },
+            "range": [6218, 6238],
+            "raw": " animal_age        |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "animalAge",
+                "loc": {
+                  "start": { "line": 424, "column": 45 },
+                  "end": { "line": 424, "column": 54 }
+                },
+                "range": [6239, 6248],
+                "raw": "animalAge"
+              }
+            ],
+            "loc": {
+              "start": { "line": 424, "column": 44 },
+              "end": { "line": 424, "column": 64 }
+            },
+            "range": [6238, 6258],
+            "raw": " animalAge         |"
+          }
+        ],
+        "loc": {
+          "start": { "line": 424, "column": 0 },
+          "end": { "line": 424, "column": 64 }
+        },
+        "range": [6194, 6258],
+        "raw": "| 必要に応じて単語をアンダースコアで区切る | animal_age        | animalAge         |"
+      },
+      {
+        "type": "TableRow",
+        "children": [
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "最初の文字列を数字してはならない",
+                "loc": {
+                  "start": { "line": 425, "column": 2 },
+                  "end": { "line": 425, "column": 18 }
+                },
+                "range": [6261, 6277],
+                "raw": "最初の文字列を数字してはならない"
+              }
+            ],
+            "loc": {
+              "start": { "line": 425, "column": 0 },
+              "end": { "line": 425, "column": 28 }
+            },
+            "range": [6259, 6287],
+            "raw": "| 最初の文字列を数字してはならない         |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "animal1, animal_1",
+                "loc": {
+                  "start": { "line": 425, "column": 29 },
+                  "end": { "line": 425, "column": 46 }
+                },
+                "range": [6288, 6305],
+                "raw": "animal1, animal_1"
+              }
+            ],
+            "loc": {
+              "start": { "line": 425, "column": 28 },
+              "end": { "line": 425, "column": 48 }
+            },
+            "range": [6287, 6307],
+            "raw": " animal1, animal_1 |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "1animal, 1_animal",
+                "loc": {
+                  "start": { "line": 425, "column": 49 },
+                  "end": { "line": 425, "column": 66 }
+                },
+                "range": [6308, 6325],
+                "raw": "1animal, 1_animal"
+              }
+            ],
+            "loc": {
+              "start": { "line": 425, "column": 48 },
+              "end": { "line": 425, "column": 68 }
+            },
+            "range": [6307, 6327],
+            "raw": " 1animal, 1_animal |"
+          }
+        ],
+        "loc": {
+          "start": { "line": 425, "column": 0 },
+          "end": { "line": 425, "column": 68 }
+        },
+        "range": [6259, 6327],
+        "raw": "| 最初の文字列を数字してはならない         | animal1, animal_1 | 1animal, 1_animal |"
+      },
+      {
+        "type": "TableRow",
+        "children": [
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "予約後と同じ名前/記号は使用できない",
+                "loc": {
+                  "start": { "line": 426, "column": 2 },
+                  "end": { "line": 426, "column": 20 }
+                },
+                "range": [6330, 6348],
+                "raw": "予約後と同じ名前/記号は使用できない"
+              }
+            ],
+            "loc": {
+              "start": { "line": 426, "column": 0 },
+              "end": { "line": 426, "column": 27 }
+            },
+            "range": [6328, 6355],
+            "raw": "| 予約後と同じ名前/記号は使用できない      |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "animal",
+                "loc": {
+                  "start": { "line": 426, "column": 28 },
+                  "end": { "line": 426, "column": 34 }
+                },
+                "range": [6356, 6362],
+                "raw": "animal"
+              }
+            ],
+            "loc": {
+              "start": { "line": 426, "column": 27 },
+              "end": { "line": 426, "column": 47 }
+            },
+            "range": [6355, 6375],
+            "raw": " animal            |"
+          },
+          {
+            "type": "TableCell",
+            "children": [
+              {
+                "type": "Str",
+                "value": "for, if, animal%",
+                "loc": {
+                  "start": { "line": 426, "column": 48 },
+                  "end": { "line": 426, "column": 64 }
+                },
+                "range": [6376, 6392],
+                "raw": "for, if, animal%"
+              }
+            ],
+            "loc": {
+              "start": { "line": 426, "column": 47 },
+              "end": { "line": 426, "column": 67 }
+            },
+            "range": [6375, 6395],
+            "raw": " for, if, animal%  |"
+          }
+        ],
+        "loc": {
+          "start": { "line": 426, "column": 0 },
+          "end": { "line": 426, "column": 67 }
+        },
+        "range": [6328, 6395],
+        "raw": "| 予約後と同じ名前/記号は使用できない      | animal            | for, if, animal%  |"
+      }
+    ],
+    "loc": {
+      "start": { "line": 422, "column": 0 },
+      "end": { "line": 426, "column": 67 }
+    },
+    "range": [6033, 6395],
+    "raw": "| 規約                                     | いい例            | ダメな例          |\n| ---------------------------------------- | ----------------- | ----------------- |\n| 必要に応じて単語をアンダースコアで区切る | animal_age        | animalAge         |\n| 最初の文字列を数字してはならない         | animal1, animal_1 | 1animal, 1_animal |\n| 予約後と同じ名前/記号は使用できない      | animal            | for, if, animal%  |"
+  },
+  {
+    "type": "List",
+    "ordered": false,
+    "start": null,
+    "spread": false,
+    "children": [
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": null,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "予約語とは、",
+                "loc": {
+                  "start": { "line": 428, "column": 2 },
+                  "end": { "line": 428, "column": 8 }
+                },
+                "range": [6399, 6405],
+                "raw": "予約語とは、"
+              },
+              {
+                "type": "Code",
+                "value": "for",
+                "loc": {
+                  "start": { "line": 428, "column": 8 },
+                  "end": { "line": 428, "column": 13 }
+                },
+                "range": [6405, 6410],
+                "raw": "`for`"
+              },
+              {
+                "type": "Str",
+                "value": " や ",
+                "loc": {
+                  "start": { "line": 428, "column": 13 },
+                  "end": { "line": 428, "column": 16 }
+                },
+                "range": [6410, 6413],
+                "raw": " や "
+              },
+              {
+                "type": "Code",
+                "value": "if",
+                "loc": {
+                  "start": { "line": 428, "column": 16 },
+                  "end": { "line": 428, "column": 20 }
+                },
+                "range": [6413, 6417],
+                "raw": "`if`"
+              },
+              {
+                "type": "Str",
+                "value": " などの文法上特殊な意味を持つ単語のことです。",
+                "loc": {
+                  "start": { "line": 428, "column": 20 },
+                  "end": { "line": 428, "column": 43 }
+                },
+                "range": [6417, 6440],
+                "raw": " などの文法上特殊な意味を持つ単語のことです。"
+              }
+            ],
+            "loc": {
+              "start": { "line": 428, "column": 2 },
+              "end": { "line": 428, "column": 43 }
+            },
+            "range": [6399, 6440],
+            "raw": "予約語とは、`for` や `if` などの文法上特殊な意味を持つ単語のことです。"
+          }
+        ],
+        "loc": {
+          "start": { "line": 428, "column": 0 },
+          "end": { "line": 428, "column": 43 }
+        },
+        "range": [6397, 6440],
+        "raw": "- 予約語とは、`for` や `if` などの文法上特殊な意味を持つ単語のことです。"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": null,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "命名規則に従わずにコードを記述しても動作はしますが、コードの可読性の悪化や思いがけないバグの原因になるので、規約に従って命名するように心がけましょう。",
+                "loc": {
+                  "start": { "line": 429, "column": 2 },
+                  "end": { "line": 429, "column": 77 }
+                },
+                "range": [6443, 6518],
+                "raw": "命名規則に従わずにコードを記述しても動作はしますが、コードの可読性の悪化や思いがけないバグの原因になるので、規約に従って命名するように心がけましょう。"
+              }
+            ],
+            "loc": {
+              "start": { "line": 429, "column": 2 },
+              "end": { "line": 429, "column": 77 }
+            },
+            "range": [6443, 6518],
+            "raw": "命名規則に従わずにコードを記述しても動作はしますが、コードの可読性の悪化や思いがけないバグの原因になるので、規約に従って命名するように心がけましょう。"
+          }
+        ],
+        "loc": {
+          "start": { "line": 429, "column": 0 },
+          "end": { "line": 429, "column": 77 }
+        },
+        "range": [6441, 6518],
+        "raw": "- 命名規則に従わずにコードを記述しても動作はしますが、コードの可読性の悪化や思いがけないバグの原因になるので、規約に従って命名するように心がけましょう。"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": null,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "Python には定数（書き換えが行われないデータ）はサポートされていませんが、変数を",
+                "loc": {
+                  "start": { "line": 430, "column": 2 },
+                  "end": { "line": 430, "column": 45 }
+                },
+                "range": [6521, 6564],
+                "raw": "Python には定数（書き換えが行われないデータ）はサポートされていませんが、変数を"
+              },
+              {
+                "type": "Code",
+                "value": "固定値",
+                "loc": {
+                  "start": { "line": 430, "column": 45 },
+                  "end": { "line": 430, "column": 50 }
+                },
+                "range": [6564, 6569],
+                "raw": "`固定値`"
+              },
+              {
+                "type": "Str",
+                "value": "として扱いたい場合に関しては、慣習として大文字で表現することがあります。",
+                "loc": {
+                  "start": { "line": 430, "column": 50 },
+                  "end": { "line": 430, "column": 86 }
+                },
+                "range": [6569, 6605],
+                "raw": "として扱いたい場合に関しては、慣習として大文字で表現することがあります。"
+              }
+            ],
+            "loc": {
+              "start": { "line": 430, "column": 2 },
+              "end": { "line": 430, "column": 86 }
+            },
+            "range": [6521, 6605],
+            "raw": "Python には定数（書き換えが行われないデータ）はサポートされていませんが、変数を`固定値`として扱いたい場合に関しては、慣習として大文字で表現することがあります。"
+          }
+        ],
+        "loc": {
+          "start": { "line": 430, "column": 0 },
+          "end": { "line": 430, "column": 86 }
+        },
+        "range": [6519, 6605],
+        "raw": "- Python には定数（書き換えが行われないデータ）はサポートされていませんが、変数を`固定値`として扱いたい場合に関しては、慣習として大文字で表現することがあります。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 428, "column": 0 },
+      "end": { "line": 430, "column": 86 }
+    },
+    "range": [6397, 6605],
+    "raw": "- 予約語とは、`for` や `if` などの文法上特殊な意味を持つ単語のことです。\n- 命名規則に従わずにコードを記述しても動作はしますが、コードの可読性の悪化や思いがけないバグの原因になるので、規約に従って命名するように心がけましょう。\n- Python には定数（書き換えが行われないデータ）はサポートされていませんが、変数を`固定値`として扱いたい場合に関しては、慣習として大文字で表現することがあります。"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "問題",
+        "loc": {
+          "start": { "line": 432, "column": 4 },
+          "end": { "line": 432, "column": 6 }
+        },
+        "range": [6611, 6613],
+        "raw": "問題"
+      }
+    ],
+    "loc": {
+      "start": { "line": 432, "column": 0 },
+      "end": { "line": 432, "column": 6 }
+    },
+    "range": [6607, 6613],
+    "raw": "### 問題"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "変数名として正しくないものを選択してください。",
+        "loc": {
+          "start": { "line": 434, "column": 0 },
+          "end": { "line": 434, "column": 23 }
+        },
+        "range": [6615, 6638],
+        "raw": "変数名として正しくないものを選択してください。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 434, "column": 0 },
+      "end": { "line": 434, "column": 23 }
+    },
+    "range": [6615, 6638],
+    "raw": "変数名として正しくないものを選択してください。"
+  },
+  {
+    "type": "List",
+    "ordered": false,
+    "start": null,
+    "spread": false,
+    "children": [
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "monster1",
+                "loc": {
+                  "start": { "line": 436, "column": 6 },
+                  "end": { "line": 436, "column": 14 }
+                },
+                "range": [6646, 6654],
+                "raw": "monster1"
+              }
+            ],
+            "loc": {
+              "start": { "line": 436, "column": 6 },
+              "end": { "line": 436, "column": 14 }
+            },
+            "range": [6646, 6654],
+            "raw": "monster1"
+          }
+        ],
+        "loc": {
+          "start": { "line": 436, "column": 0 },
+          "end": { "line": 436, "column": 14 }
+        },
+        "range": [6640, 6654],
+        "raw": "- [ ] monster1"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "monster",
+                "loc": {
+                  "start": { "line": 437, "column": 6 },
+                  "end": { "line": 437, "column": 13 }
+                },
+                "range": [6661, 6668],
+                "raw": "monster"
+              }
+            ],
+            "loc": {
+              "start": { "line": 437, "column": 6 },
+              "end": { "line": 437, "column": 13 }
+            },
+            "range": [6661, 6668],
+            "raw": "monster"
+          }
+        ],
+        "loc": {
+          "start": { "line": 437, "column": 0 },
+          "end": { "line": 437, "column": 13 }
+        },
+        "range": [6655, 6668],
+        "raw": "- [ ] monster"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": false,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "cute_animal",
+                "loc": {
+                  "start": { "line": 438, "column": 6 },
+                  "end": { "line": 438, "column": 17 }
+                },
+                "range": [6675, 6686],
+                "raw": "cute_animal"
+              }
+            ],
+            "loc": {
+              "start": { "line": 438, "column": 6 },
+              "end": { "line": 438, "column": 17 }
+            },
+            "range": [6675, 6686],
+            "raw": "cute_animal"
+          }
+        ],
+        "loc": {
+          "start": { "line": 438, "column": 0 },
+          "end": { "line": 438, "column": 17 }
+        },
+        "range": [6669, 6686],
+        "raw": "- [ ] cute_animal"
+      },
+      {
+        "type": "ListItem",
+        "spread": false,
+        "checked": true,
+        "children": [
+          {
+            "type": "Paragraph",
+            "children": [
+              {
+                "type": "Str",
+                "value": "else",
+                "loc": {
+                  "start": { "line": 439, "column": 6 },
+                  "end": { "line": 439, "column": 10 }
+                },
+                "range": [6693, 6697],
+                "raw": "else"
+              }
+            ],
+            "loc": {
+              "start": { "line": 439, "column": 6 },
+              "end": { "line": 439, "column": 10 }
+            },
+            "range": [6693, 6697],
+            "raw": "else"
+          }
+        ],
+        "loc": {
+          "start": { "line": 439, "column": 0 },
+          "end": { "line": 439, "column": 10 }
+        },
+        "range": [6687, 6697],
+        "raw": "- [x] else"
+      }
+    ],
+    "loc": {
+      "start": { "line": 436, "column": 0 },
+      "end": { "line": 439, "column": 10 }
+    },
+    "range": [6640, 6697],
+    "raw": "- [ ] monster1\n- [ ] monster\n- [ ] cute_animal\n- [x] else"
+  },
+  {
+    "type": "Header",
+    "depth": 3,
+    "children": [
+      {
+        "type": "Str",
+        "value": "解説",
+        "loc": {
+          "start": { "line": 441, "column": 4 },
+          "end": { "line": 441, "column": 6 }
+        },
+        "range": [6703, 6705],
+        "raw": "解説"
+      }
+    ],
+    "loc": {
+      "start": { "line": 441, "column": 0 },
+      "end": { "line": 441, "column": 6 }
+    },
+    "range": [6699, 6705],
+    "raw": "### 解説"
+  },
+  {
+    "type": "Paragraph",
+    "children": [
+      {
+        "type": "Str",
+        "value": "正解は ",
+        "loc": {
+          "start": { "line": 443, "column": 0 },
+          "end": { "line": 443, "column": 4 }
+        },
+        "range": [6707, 6711],
+        "raw": "正解は "
+      },
+      {
+        "type": "Code",
+        "value": "else",
+        "loc": {
+          "start": { "line": 443, "column": 4 },
+          "end": { "line": 443, "column": 10 }
+        },
+        "range": [6711, 6717],
+        "raw": "`else`"
+      },
+      {
+        "type": "Str",
+        "value": " です。\nelse は予約語なので変数名としては使用できません。使用した場合以下のようなエラーメッセージが表示されます。",
+        "loc": {
+          "start": { "line": 443, "column": 10 },
+          "end": { "line": 444, "column": 55 }
+        },
+        "range": [6717, 6777],
+        "raw": " です。\nelse は予約語なので変数名としては使用できません。使用した場合以下のようなエラーメッセージが表示されます。"
+      }
+    ],
+    "loc": {
+      "start": { "line": 443, "column": 0 },
+      "end": { "line": 444, "column": 55 }
+    },
+    "range": [6707, 6777],
+    "raw": "正解は `else` です。\nelse は予約語なので変数名としては使用できません。使用した場合以下のようなエラーメッセージが表示されます。"
+  },
+  {
+    "type": "CodeBlock",
+    "lang": "shell",
+    "meta": null,
+    "value": "SyntaxError: invalid syntax",
+    "loc": {
+      "start": { "line": 446, "column": 0 },
+      "end": { "line": 448, "column": 3 }
+    },
+    "range": [6779, 6819],
+    "raw": "```shell\nSyntaxError: invalid syntax\n```"
+  }
+]

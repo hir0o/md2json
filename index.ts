@@ -1,4 +1,4 @@
-import { parse } from '@textlint/text-to-ast'
+import { parse } from '@textlint/markdown-to-ast'
 import { TxtNode, TxtParentNode } from '@textlint/ast-node-types'
 
 import { readFileSync } from 'fs'
@@ -27,11 +27,13 @@ const md2json = () => {
   const file = readFileSync('./example/text.md', 'utf-8')
   const { children } = parse(file)
 
-  if (children.shift().raw !== '---') throw 'ファイルの先頭は---です。'
+  console.log(JSON.stringify(children))
 
-  const metaData: { [key: string]: string } = getMetaData(children)
+  // if (children.shift().raw !== '---') throw 'ファイルの先頭は---です。'
 
-  return { metaData }
+  // const metaData: { [key: string]: string } = getMetaData(children)
+
+  // return { metaData }
 }
 
 md2json()
