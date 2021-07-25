@@ -1,8 +1,7 @@
 import { parse } from '@textlint/markdown-to-ast'
-import { ASTNodeTypes, TxtNode } from '@textlint/ast-node-types'
+import { TxtNode } from '@textlint/ast-node-types'
 import { readFileSync } from 'fs'
 import { load } from 'js-yaml'
-import { LessonType } from './type'
 
 const MetaRequired = [
   'title',
@@ -152,7 +151,10 @@ const getQuizExplanation = (ast: AstHandler) => {
   let content = ''
   if (ast.next().raw === '### 解説') {
     ast.next()
-    while (ast.current().type !== 'HorizontalRule') {
+    while (
+      ast.current() !== undefined &&
+      ast.current().type !== 'HorizontalRule'
+    ) {
       content += ast.current().raw + '\n\n'
       ast.next()
     }
@@ -163,7 +165,18 @@ const getQuizExplanation = (ast: AstHandler) => {
   }
 }
 
-const md2json = () => {
+const getLessons = (ast: AstHandler) => {
+  let lessons = []
+  while (true) {
+    lessons.push(getLesson(ast))
+    if (ast.next() === undefined) {
+      break
+    }
+  }
+  return lessons
+}
+
+export const md2json = () => {
   try {
     const file = readFileSync('./example/text.md', 'utf-8')
     const { children } = parse(file)
@@ -171,12 +184,10 @@ const md2json = () => {
     const ast = astHandler(children)
 
     const metaData: { [key: string]: string } = getMetaData(ast.current())
-    const lesson = getLesson(ast)
+    const lessons = getLessons(ast) // こっから！！！！
 
-    return { metaData }
+    return { ...metaData, lessons }
   } catch (error) {
     console.error(error)
   }
 }
-
-md2json()

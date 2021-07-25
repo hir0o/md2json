@@ -1,0 +1,120 @@
+{
+  "title": "Python",
+  "content": "Python は、機械学習や、Web アプリケーション開発、データ処理/解析 などができる汎用的な言語です。読みやすくシンプルな言語なので、初心者でも比較的簡単に学習できる言語と言えます。",
+  "tag": "backend",
+  "imageUrl": "https://dummyimage.com/600x400/000/fff&text=Pythonを始めよう",
+  "difficulty": 1,
+  "score": 1,
+  "lessons": [
+    {
+      "title": "Python とは",
+      "description": "Python について学習しましょう",
+      "exp": 100,
+      "content": "<img src=\"https://img-host.wemotion.co.jp/uploads/c-python/logo-python.png\" width=\"500\">\n\nPython とは、1991 年にオランダ人の Guido van Rossum（グイド・ヴァン・ロッサム）氏が開発した `オブジェクト指向スクリプト言語` です。\n\n同じオブジェクト指向言語には `Ruby` や `PHP` などの言語があります。\n\n`Python = AI` のようなイメージを持ってる方が多いとは思いますが、AI を作るためだけの言語というわけではなく、`Webアプリケーション開発` や `データ処理/解析` などができる汎用的な言語となります。また開発効率がよく、素早く開発ができるといった特徴もあります。\n\nPython は読みやすくてシンプルなので、比較的簡単で習得しやすい言語の一つになります。少ないコード量でプログラムが書くことができるので読み間違えや書き間違えが発生しにくい点や、Python を知らない人でも理解しやすいように設計されている点が開発効率の向上に寄与しています。",
+      "quizContent": "以下の実行結果を出力するために適切なコードを選択してください。\n\n```\nHello python!\n```",
+      "quizCoices": [
+        { "content": "printf(\"Hello python!\")", "isCorrect": false },
+        { "content": "print \"Hello python!\"", "isCorrect": false },
+        { "content": "print(\"Hello python!\")", "isCorrect": true },
+        { "content": "print(Hello python!)", "isCorrect": false }
+      ],
+      "quizExplanation": "正解は `else` です。\nelse は予約語なので変数名としては使用できません。使用した場合以下のようなエラーメッセージが表示されます。\n\n```shell\nSyntaxError: invalid syntax\n```"
+    },
+    {
+      "title": "Python で何が出来るか",
+      "description": "Python でできることについて学習しましょう",
+      "exp": 100,
+      "content": "先述したように、Python は汎用的な言語なのでできることは沢山ありますが、ここでは代表的なものを紹介します。\n\n### データ処理や解析\n\nPython には **_NumPy_**、**_SciPy_** などの高速な数値計算ライブラリが存在しているため、データ処理やデータ解析によく用いられることがあります。\n例えば、大きなデータを高速に集計・解析したり、グラフをプロットするプログラムを書くといったことができます。\n\n### フレームワークを使用した Web アプリケーションの構築\n\nPython の代表的な Web アプリケーション フレームワークには、`Django(ジャンゴ)` や `Flask（フラスコ/フラスク）` と言ったフレームワークがあり、Web アプリケーションの開発でよく使用されています。\n\nDjango は Web アプリ開発に特化したフルスタックなフレームワークで大規模な開発に向いている一方、Flask は小規模な開発に向いています。\n\n他にも Python はシステムの開発やゲームプログラミングができます。",
+      "quizContent": "なし",
+      "quizCoices": [{ "content": "なし", "isCorrect": true }],
+      "quizExplanation": "なし"
+    },
+    {
+      "title": "基本的な書き方",
+      "description": "基本的な",
+      "exp": 100,
+      "content": "実際に Python を書いて実行してみましょう。\nエディタに Python のコードを書いて、ターミナル（Windows の方はコマンドプロンプト、又は PowerShell）で実行という流れで進めていきましょう。\n\nそれでは Python の基本的な書き方について学んでいきましょう。\n任意の場所に `/python` ディレクトリを作成し、その中に `test.py` というファイルを作成してください。\nPython は、インデントに意味を持つ言語なので各行でのインデントには気をつけましょう。\n\n`print()` という関数を使用することで文字列や数値を出力することができます。引数に出力したい文字列および数値を与えましょう。\n\n```python:test.py\nprint(\"Hello, Python!\")\nprint(1)\n```\n\n書いたコードを実行するためには、シェルなどから\n\n```shell\n$ python 実行ファイル名\n```\n\nとすることで Python ファイルが実行されます。\n\n```shell\n$ python test.py\nHello, Python!\n1\n```",
+      "quizContent": "以下の実行結果を出力するために適切なコードを選択してください。\n\n```\nHello python!\n```",
+      "quizCoices": [
+        { "content": "printf(\"Hello python!\")", "isCorrect": false },
+        { "content": "print \"Hello python!\"", "isCorrect": false },
+        { "content": "print(\"Hello python!\")", "isCorrect": true },
+        { "content": "print(Hello python!)", "isCorrect": false }
+      ],
+      "quizExplanation": "出力するコードとして正しいのは、`print(\"Hello python!\")` です。\nPython では、print()メソッドで実行結果を出力することができます。\nまた、今回は文字列を出力させるとのことでしたので、`\"\"`ダブルクォーテーションでしたが、数値の場合は必要ないので注意してください。"
+    },
+    {
+      "title": "コメントアウト",
+      "description": "コメントアウト について学習しましょう．",
+      "exp": 100,
+      "content": "ソースコードの中にコメントやメモを残しておきたい場合は、コメントアウトを使用して記述しましょう。`#` を使うと以降の文字がコメントアウトされます。\n\n```python\nprint('Hello, python') # これはコメントです\n```\n\n複数行をコメントアウトしたい場合は、以下のように記述します。\n\n```python\nprint(\"Hello python\") # 実行される\n\n\"\"\"\nこれはコメントです\nこれはコメントです\nこれはコメントです\n\"\"\"\n\nprint(\"Hello codeee\") # 実行される\n```",
+      "quizContent": "Python でコメントアウトに使用する記号を選択してください。",
+      "quizCoices": [
+        { "content": "/\\*\\*/ コメントアウト", "isCorrect": false },
+        { "content": "# コメントアウト", "isCorrect": true },
+        { "content": "// コメントアウト", "isCorrect": false },
+        { "content": "＄ コメントアウト", "isCorrect": false }
+      ],
+      "quizExplanation": "Python でコメントアウトに使用する記号は `#` です。\n`/**/`, `//`, `$` などの記号はプログラミングを学んでいくとどこかで使用する機会があると思うので楽しみにしててください。"
+    },
+    {
+      "title": "変数とは",
+      "description": "変数について学習しましょう．",
+      "exp": 100,
+      "content": "変数とはデータを一時的に保管しておく箱のようなもので、データを格納したり、取り出すことができます。\n\n<!-- ＠TODO\nimg-host.wemotion.co.jpをcodeeeのCDNに変更（外部の著作物である画像はリライトが必要） -->\n\n<img src=\"https://img-host.wemotion.co.jp/uploads/c-python/python-variable\" width=\"500\">\n\nこのレッスンでは、変数を使うメリットについて学んでいきましょう。\n\n### データに意味を持たせることができる\n\n以下のコードは 100 と 200 を足しているということはわかりますが、その数字の意味はわかりかねます。\n\n```python\ntotal_price = 100 + 200\n```\n\nしかし、それぞれの数字を `変数` に代入して計算することで、何の計算を行っているのかがわかり易くなります。\n\n```python\napple_price = 100\norange_price = 200\n\n# りんごとオレンジの値段を計算している\ntotal_price = apple_price + orange_price\n```\n\n### 繰り返し使用することができる\n\n```python\ntax_rate = 1.10\ntotal_price = price * tax_rate\n```\n\n### 変更が容易になる\n\n消費税の変更を例にとってみましょう。\n\n```python\napple = 100\ntax_rate = 0.8 #消費税率\n\napple_price = apple * tax_rate # tax_rate -> 0.8\n\nprint(apple_price)\n# => 108\n```\n\nこのように消費税（tax）がそれぞれで計算されていますが、消費税に変更があった場合は変数`tax`の値を変更してあげるだけで済みます。\n\n```python\napple = 100\ntax_rate = 1.0 # 消費税率を変更するだけでOK\n\napple_price = apple * tax_rate # tax_rate -> 1.0\n\nprint(apple_price)\n# => 110\n```",
+      "quizContent": "変数を使用する目的として誤っているものを選択してください。",
+      "quizCoices": [
+        { "content": "変更が容易になる", "isCorrect": false },
+        { "content": "繰り返しの使用を防ぐ", "isCorrect": true },
+        {
+          "content": "メモリ上のデータにアクセスしやすくなる",
+          "isCorrect": false
+        },
+        { "content": "データに意味を持たせることができる", "isCorrect": false }
+      ],
+      "quizExplanation": "正解は `繰り返しの使用を防ぐ` です。\n変数を定義してその変数を繰り返し使用すれば、もし変更点があったとしてもすぐに修正することができます。"
+    },
+    {
+      "title": "変数名のルール",
+      "description": "変数名のルールを学習しましょう．",
+      "exp": 100,
+      "content": "これまで変数について学んできましたが、変数の名前の付け方にはコーディング規約というルールが存在します。\n\n| 規約                                     | いい例            | ダメな例          |\n| ---------------------------------------- | ----------------- | ----------------- |\n| 変数の名前は小文字であること             | animal            | ANIMAL, Animal    |\n| 必要に応じて単語をアンダースコアで区切る | animal_age        | animalAge         |\n| 最初の文字列を数字してはならない         | animal1, animal_1 | 1animal, 1_animal |\n| 予約後と同じ名前/記号は使用できない      | animal            | for, if, animal%  |\n\n- 予約語及とは、`for` や `if` などの文法上特殊な意味を持つ単語のことです。\n- 命名規則に従わずにコードを記述しても動作はしますが、コードの可読性の悪化や思いがけないバグの原因になるので、規約に従って命名するように心がけましょう。",
+      "quizContent": "変数名として正しくないものを選択してくだい。",
+      "quizCoices": [
+        { "content": "monster1", "isCorrect": false },
+        { "content": "monster", "isCorrect": false },
+        { "content": "cute_animal", "isCorrect": false },
+        { "content": "else", "isCorrect": true }
+      ],
+      "quizExplanation": "正解は `else` です。\nelse は予約語なので変数名としては使用できません。使用した場合以下のようなエラーメッセージが表示されます。\n\n```shell\nSyntaxError: invalid syntax\n```"
+    },
+    {
+      "title": "変数の宣言と更新",
+      "description": "変数の宣言と更新を学習しましょう",
+      "exp": 100,
+      "content": "変数を使うためには、まず変数を宣言する必要があります。\nまた、宣言した変数を出力することで、変数の中身を確認することができます。\n\n```python\nfruit = \"apple\"\nprint(fruit)\n# => apple\n```\n\n変数はデータを格納するだけではなく、更新することもできます。\n\n```python\nfruit = \"apple\"\nprint(fruit)\n# => apple\n\nfruit = \"orange\"\nprint(fruit)\n# => orange\n```\n\nまた変数に数値を四則演算して更新したい場合は...\n\n```python\nprice = 100\nprint(price)\n# => 100\n\nprice += 200 # price = price + 200と同じ\nprint(price)\n# => 300\n\nprice -= 50 # price = price - 50と同じ\nprint(price)\n# => 250\n\nprice *= 2 # price = price * 2と同じ\nprint(price)\n# => 500\n\nprice /= 5 # price = price / 5と同じ\nprint(price)\n# => 100\n```",
+      "quizContent": "以下のコードの実行結果として正しいモノを選択してください。\n\n```python\ntotal = 0\n\ntotal += 100\ntotal /= 10\ntotal *= 2\ntotal = 300\n\nprint(total)\n```",
+      "quizCoices": [
+        { "content": "20", "isCorrect": false },
+        { "content": "230", "isCorrect": false },
+        { "content": "200", "isCorrect": true },
+        { "content": "220", "isCorrect": false }
+      ],
+      "quizExplanation": "正解は `300` です。\nはじめに `total` という変数に 0 を代入し、４回更新していますが、最後の更新で 300 で上書きしているため 300 となります。"
+    },
+    {
+      "title": "変数名のルール",
+      "description": "変数名のルールを学習しましょう．",
+      "exp": 100,
+      "content": "これまで変数について学んできましたが、変数の名前の付け方にはコーディング規約というルールが存在します。\n\n| 規約                                     | いい例            | ダメな例          |\n| ---------------------------------------- | ----------------- | ----------------- |\n| 必要に応じて単語をアンダースコアで区切る | animal_age        | animalAge         |\n| 最初の文字列を数字してはならない         | animal1, animal_1 | 1animal, 1_animal |\n| 予約後と同じ名前/記号は使用できない      | animal            | for, if, animal%  |\n\n- 予約語とは、`for` や `if` などの文法上特殊な意味を持つ単語のことです。\n- 命名規則に従わずにコードを記述しても動作はしますが、コードの可読性の悪化や思いがけないバグの原因になるので、規約に従って命名するように心がけましょう。\n- Python には定数（書き換えが行われないデータ）はサポートされていませんが、変数を`固定値`として扱いたい場合に関しては、慣習として大文字で表現することがあります。",
+      "quizContent": "変数名として正しくないものを選択してください。",
+      "quizCoices": [
+        { "content": "monster1", "isCorrect": false },
+        { "content": "monster", "isCorrect": false },
+        { "content": "cute_animal", "isCorrect": false },
+        { "content": "else", "isCorrect": true }
+      ],
+      "quizExplanation": "正解は `else` です。\nelse は予約語なので変数名としては使用できません。使用した場合以下のようなエラーメッセージが表示されます。\n\n```shell\nSyntaxError: invalid syntax\n```"
+    }
+  ]
+}
