@@ -46,6 +46,7 @@ const getLesson = (ast: AstHandler) => {
   const description = getDescription(ast)
   const exp = getExp(ast)
   const content = getContent(ast)
+  console.log(content)
 
   return { title, description, exp, content }
 }
@@ -94,8 +95,11 @@ const getExp = (ast: AstHandler) => {
 const getContent = (ast: AstHandler) => {
   let content = ''
   if (ast.next().raw === '### 本文') {
+    ast.next()
+    // TODO: "### 問題"があるかどうか
+    // --- か、EOFだとerror ?
     while (ast.current().raw !== '### 問題') {
-      content += ast.current().raw + '\n'
+      content += ast.current().raw + '\n\n'
       ast.next()
     }
     return content
