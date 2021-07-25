@@ -64,6 +64,7 @@ const getLesson = (ast: AstHandler) => {
 
 const getLessonTitle = (ast: AstHandler) => {
   const item = ast.next()
+
   if (item.type === 'Header' && item.depth === 2) {
     return item.children[0].value
   } else {
@@ -158,7 +159,6 @@ const getQuizExplanation = (ast: AstHandler) => {
       content += ast.current().raw + '\n\n'
       ast.next()
     }
-    ast.prev()
     return content.slice(0, -2) // 後ろの改行を削除
   } else {
     raiseError('解説がありません', ast.current())
@@ -167,11 +167,8 @@ const getQuizExplanation = (ast: AstHandler) => {
 
 const getLessons = (ast: AstHandler) => {
   let lessons = []
-  while (true) {
+  while (ast.current() !== undefined) {
     lessons.push(getLesson(ast))
-    if (ast.next() === undefined) {
-      break
-    }
   }
   return lessons
 }
@@ -191,3 +188,5 @@ export const md2json = () => {
     console.error(error)
   }
 }
+
+console.log(JSON.stringify(md2json()))
