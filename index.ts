@@ -48,10 +48,12 @@ const getLesson = (ast: AstHandler) => {
   const exp = getExp(ast)
   const content = getContent(ast)
   const quizContent = getQuizContent(ast)
+  const quizCoices = getQuizCoices(ast)
+  const quizExplanation = getQuizExplanation(ast)
 
   console.log(quizContent)
 
-  return { title, description, exp, content }
+  return { title, description, exp, content, quizContent }
 }
 
 const getLessonTitle = (ast: AstHandler) => {
@@ -106,7 +108,7 @@ const getContent = (ast: AstHandler) => {
       ast.next()
     }
     ast.prev()
-    return content
+    return content.slice(0, -2) // 後ろの改行を削除
   } else {
     raiseError('本文がありません', ast.current())
   }
@@ -122,9 +124,20 @@ const getQuizContent = (ast: AstHandler) => {
       ast.next()
     }
     ast.prev()
-    return content
+    return content.slice(0, -2) // 後ろの改行を削除
   } else {
     raiseError('問題がありません', ast.current())
+  }
+}
+
+const getQuizCoices = (ast: AstHandler) => {
+  if (ast.next().type === 'List') {
+    return ast.current().children.map((item: TxtNode) => {
+      // if type === ListItemは不要
+      return { content: item.children[0].raw, isCorrect: item.checked }
+    })
+  } else {
+    raiseError('選択肢がありません', ast.current())
   }
 }
 
