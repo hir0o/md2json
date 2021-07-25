@@ -35,7 +35,9 @@ const getMetaData = (ast: TxtNode) => {
 
   const meta = load(ast.value) as { [key: string]: string }
   MetaRequired.forEach((item) => {
-    if (!Object.keys(meta).includes(item)) throw `メタ情報に${item}がありません`
+    if (!Object.keys(meta).includes(item)) {
+      raiseError(`メタ情報に${item}がありません`, ast)
+    }
   })
   return meta
 }
