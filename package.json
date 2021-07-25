@@ -2,5 +2,14 @@
   "name": "md2json",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@textlint/markdown-to-ast": "^12.0.2"
+  },
+  "scripts": {
+    "deploy": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.3"
+  }
 }
