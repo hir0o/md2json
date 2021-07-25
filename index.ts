@@ -44,10 +44,10 @@ const getMetaData = (ast: TxtNode) => {
 const getLesson = (ast: AstHandler) => {
   const title = getLessonTitle(ast)
   const description = getDescription(ast)
+  const exp = getExp(ast)
   const content = getContent(ast)
-  console.log({ content })
 
-  return { title, description }
+  return { title, description, exp, content }
 }
 
 const getLessonTitle = (ast: AstHandler) => {
@@ -74,6 +74,20 @@ const getDescription = (ast: AstHandler) => {
     }
   } else {
     raiseError('概要がありません。', item)
+  }
+}
+
+const getExp = (ast: AstHandler) => {
+  const item = ast.next()
+  if (item.raw === '### 経験値') {
+    const reItem = ast.next()
+    if (reItem.type === 'Paragraph' && /^([1-9]\d*|0)$/.test(reItem.raw)) {
+      return Number(reItem.raw)
+    } else {
+      raiseError('経験値が不正です。', reItem)
+    }
+  } else {
+    raiseError('経験値がありません。', item)
   }
 }
 
