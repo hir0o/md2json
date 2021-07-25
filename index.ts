@@ -12,7 +12,7 @@ const MetaRequired = [
   'score'
 ]
 
-type AstHandlerType = {
+type AstHandler = {
   next: () => TxtNode
   current: () => TxtNode
 }
@@ -41,16 +41,16 @@ const getMetaData = (ast: TxtNode) => {
   return meta
 }
 
-const getLesson = (ast: AstHandlerType) => {
+const getLesson = (ast: AstHandler) => {
   const title = getLessonTitle(ast)
   const description = getDescription(ast)
-  console.log({ title })
-  console.log({ description })
+  const content = getContent(ast)
+  console.log({ content })
 
   return { title, description }
 }
 
-const getLessonTitle = (ast: AstHandlerType) => {
+const getLessonTitle = (ast: AstHandler) => {
   const item = ast.next()
   if (item.type === 'Header' && item.depth === 2) {
     return item.children[0].value
@@ -59,7 +59,7 @@ const getLessonTitle = (ast: AstHandlerType) => {
   }
 }
 
-const getDescription = (ast: AstHandlerType) => {
+const getDescription = (ast: AstHandler) => {
   const item = ast.next()
   if (
     item.type === 'Header' &&
@@ -75,6 +75,16 @@ const getDescription = (ast: AstHandlerType) => {
   } else {
     raiseError('概要がありません。', item)
   }
+}
+
+const getContent = (ast: AstHandler) => {
+  let content = ''
+  ast.next()
+  while (ast.current().raw !== '### 本文') {
+    content += ast.current().raw + '\n'
+    ast.next()
+  }
+  return content
 }
 
 // 一旦ここに全部実装しちゃう
