@@ -180,8 +180,8 @@ export const md2json = () => {
 
     const ast = astHandler(children)
 
-    const metaData: { [key: string]: string } = getMetaData(ast.current())
-    const lessons = getLessons(ast) // こっから！！！！
+    const metaData = getMetaData(ast.current())
+    const lessons = getLessons(ast)
 
     return { ...metaData, lessons }
   } catch (error) {
