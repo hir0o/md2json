@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { parse } from '@textlint/markdown-to-ast'
 import { TxtNode } from '@textlint/ast-node-types'
 import { readFileSync } from 'fs'
